@@ -29,7 +29,7 @@
 #include "stm8l15x.h"
 #include "delay.h"
 
-#define SYS_CLK_HSE_DIV1
+#define SYS_CLK_HSI_DIV1
 
 /**
   * @brief _delay_us
@@ -121,7 +121,7 @@ void delay_ms(u16 n_ms)
 //------------------------------------------------------------------------------
 void delay_1us(u16 n_1us)
 {
-  CLK_PeripheralClockConfig(CLK_Peripheral_TIM4, ENABLE);
+  //CLK_PeripheralClockConfig(CLK_Peripheral_TIM4, ENABLE);
   // Init TIMER 4 //
   // prescaler: / (2^0) = /1
   TIM4->PSCR = 0;
@@ -135,7 +135,7 @@ void delay_1us(u16 n_1us)
 #else
 #ifdef SYS_CLK_HSI_DIV1
   // Auto-Reload value: 16M / 1 = 16M, 16M / 100k = 160
-  TIM4->ARR = 16;
+  TIM4->ARR = 15;
 #else
 #ifdef SYS_CLK_HSI_DIV2
   // Auto-Reload value: 16M/2 / 1 = 8M, 8M / 100k = 80
@@ -147,7 +147,7 @@ void delay_1us(u16 n_1us)
 #endif
 #endif
   // Counter value: 10, to compensate the initialization of TIMER
-  TIM4->CNTR = 0;
+  TIM4->CNTR = 15;
 
   // clear update flag
   TIM4->SR1 &= ~TIM4_SR1_UIF;
@@ -162,8 +162,7 @@ void delay_1us(u16 n_1us)
 
   // Disable Counter
   TIM4->CR1 &= ~TIM4_CR1_CEN;
-  CLK_PeripheralClockConfig(CLK_Peripheral_TIM4, DISABLE);
-
+  //CLK_PeripheralClockConfig(CLK_Peripheral_TIM4, DISABLE);
 }
 
 /**

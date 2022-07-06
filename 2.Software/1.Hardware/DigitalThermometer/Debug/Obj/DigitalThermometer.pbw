@@ -35646,6 +35646,3258 @@
     "scope": null
   },
   {
+    "ID": "c:stm8l15x_tim2.h@1169@macro@__STM8L15x_TIM2_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM8L15x_TIM2_H",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "__STM8L15x_TIM2_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_ForcedAction_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_ForcedAction_TypeDef@TIM2_ForcedAction_Active",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ForcedAction_Active",
+        "location": {
+          "column": "3",
+          "line": "50",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ForcedAction_Active",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_ForcedAction_TypeDef@TIM2_ForcedAction_Inactive",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ForcedAction_Inactive",
+        "location": {
+          "column": "3",
+          "line": "51",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ForcedAction_Inactive",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@TIM2_ForcedAction_TypeDef",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "enum TIM2_ForcedAction_TypeDef",
+    "location": {
+      "column": "1",
+      "line": "53",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_ForcedAction_TypeDef",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_Prescaler_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_Prescaler_TypeDef@TIM2_Prescaler_1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_Prescaler_1",
+        "location": {
+          "column": "3",
+          "line": "64",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_Prescaler_1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_Prescaler_TypeDef@TIM2_Prescaler_2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_Prescaler_2",
+        "location": {
+          "column": "3",
+          "line": "65",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_Prescaler_2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_Prescaler_TypeDef@TIM2_Prescaler_4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_Prescaler_4",
+        "location": {
+          "column": "3",
+          "line": "66",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_Prescaler_4",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_Prescaler_TypeDef@TIM2_Prescaler_8",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_Prescaler_8",
+        "location": {
+          "column": "3",
+          "line": "67",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_Prescaler_8",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_Prescaler_TypeDef@TIM2_Prescaler_16",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_Prescaler_16",
+        "location": {
+          "column": "3",
+          "line": "68",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_Prescaler_16",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_Prescaler_TypeDef@TIM2_Prescaler_32",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_Prescaler_32",
+        "location": {
+          "column": "3",
+          "line": "69",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_Prescaler_32",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_Prescaler_TypeDef@TIM2_Prescaler_64",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_Prescaler_64",
+        "location": {
+          "column": "3",
+          "line": "70",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_Prescaler_64",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_Prescaler_TypeDef@TIM2_Prescaler_128",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_Prescaler_128",
+        "location": {
+          "column": "3",
+          "line": "71",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_Prescaler_128",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_OCMode_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_OCMode_TypeDef@TIM2_OCMode_Timing",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OCMode_Timing",
+        "location": {
+          "column": "3",
+          "line": "83",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OCMode_Timing",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_OCMode_TypeDef@TIM2_OCMode_Active",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OCMode_Active",
+        "location": {
+          "column": "3",
+          "line": "84",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OCMode_Active",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_OCMode_TypeDef@TIM2_OCMode_Inactive",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OCMode_Inactive",
+        "location": {
+          "column": "3",
+          "line": "85",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OCMode_Inactive",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_OCMode_TypeDef@TIM2_OCMode_Toggle",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OCMode_Toggle",
+        "location": {
+          "column": "3",
+          "line": "86",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OCMode_Toggle",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_OCMode_TypeDef@TIM2_OCMode_PWM1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OCMode_PWM1",
+        "location": {
+          "column": "3",
+          "line": "87",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OCMode_PWM1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_OCMode_TypeDef@TIM2_OCMode_PWM2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OCMode_PWM2",
+        "location": {
+          "column": "3",
+          "line": "88",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OCMode_PWM2",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "81",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_OPMode_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_OPMode_TypeDef@TIM2_OPMode_Single",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OPMode_Single",
+        "location": {
+          "column": "3",
+          "line": "100",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OPMode_Single",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_OPMode_TypeDef@TIM2_OPMode_Repetitive",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OPMode_Repetitive",
+        "location": {
+          "column": "3",
+          "line": "101",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OPMode_Repetitive",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "98",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_Channel_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_Channel_TypeDef@TIM2_Channel_1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_Channel_1",
+        "location": {
+          "column": "3",
+          "line": "113",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_Channel_1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_Channel_TypeDef@TIM2_Channel_2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_Channel_2",
+        "location": {
+          "column": "3",
+          "line": "114",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_Channel_2",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "111",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_CounterMode_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_CounterMode_TypeDef@TIM2_CounterMode_Up",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_CounterMode_Up",
+        "location": {
+          "column": "3",
+          "line": "126",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_CounterMode_Up",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_CounterMode_TypeDef@TIM2_CounterMode_Down",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_CounterMode_Down",
+        "location": {
+          "column": "3",
+          "line": "127",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_CounterMode_Down",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_CounterMode_TypeDef@TIM2_CounterMode_CenterAligned1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_CounterMode_CenterAligned1",
+        "location": {
+          "column": "3",
+          "line": "128",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_CounterMode_CenterAligned1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_CounterMode_TypeDef@TIM2_CounterMode_CenterAligned2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_CounterMode_CenterAligned2",
+        "location": {
+          "column": "3",
+          "line": "129",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_CounterMode_CenterAligned2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_CounterMode_TypeDef@TIM2_CounterMode_CenterAligned3",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_CounterMode_CenterAligned3",
+        "location": {
+          "column": "3",
+          "line": "130",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_CounterMode_CenterAligned3",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "124",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_OCPolarity_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_OCPolarity_TypeDef@TIM2_OCPolarity_High",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OCPolarity_High",
+        "location": {
+          "column": "3",
+          "line": "142",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OCPolarity_High",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_OCPolarity_TypeDef@TIM2_OCPolarity_Low",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OCPolarity_Low",
+        "location": {
+          "column": "3",
+          "line": "143",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OCPolarity_Low",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "140",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_OutputState_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_OutputState_TypeDef@TIM2_OutputState_Disable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OutputState_Disable",
+        "location": {
+          "column": "3",
+          "line": "155",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OutputState_Disable",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_OutputState_TypeDef@TIM2_OutputState_Enable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OutputState_Enable",
+        "location": {
+          "column": "3",
+          "line": "156",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OutputState_Enable",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "153",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_BreakState_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_BreakState_TypeDef@TIM2_BreakState_Disable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_BreakState_Disable",
+        "location": {
+          "column": "3",
+          "line": "168",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_BreakState_Disable",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_BreakState_TypeDef@TIM2_BreakState_Enable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_BreakState_Enable",
+        "location": {
+          "column": "3",
+          "line": "169",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_BreakState_Enable",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "166",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_BreakPolarity_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_BreakPolarity_TypeDef@TIM2_BreakPolarity_High",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_BreakPolarity_High",
+        "location": {
+          "column": "3",
+          "line": "182",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_BreakPolarity_High",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_BreakPolarity_TypeDef@TIM2_BreakPolarity_Low",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_BreakPolarity_Low",
+        "location": {
+          "column": "3",
+          "line": "183",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_BreakPolarity_Low",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "180",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_AutomaticOutput_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_AutomaticOutput_TypeDef@TIM2_AutomaticOutput_Enable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_AutomaticOutput_Enable",
+        "location": {
+          "column": "3",
+          "line": "196",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_AutomaticOutput_Enable",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_AutomaticOutput_TypeDef@TIM2_AutomaticOutput_Disable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_AutomaticOutput_Disable",
+        "location": {
+          "column": "3",
+          "line": "197",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_AutomaticOutput_Disable",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "194",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_LockLevel_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_LockLevel_TypeDef@TIM2_LockLevel_Off",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_LockLevel_Off",
+        "location": {
+          "column": "3",
+          "line": "209",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_LockLevel_Off",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_LockLevel_TypeDef@TIM2_LockLevel_1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_LockLevel_1",
+        "location": {
+          "column": "3",
+          "line": "210",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_LockLevel_1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_LockLevel_TypeDef@TIM2_LockLevel_2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_LockLevel_2",
+        "location": {
+          "column": "3",
+          "line": "211",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_LockLevel_2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_LockLevel_TypeDef@TIM2_LockLevel_3",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_LockLevel_3",
+        "location": {
+          "column": "3",
+          "line": "212",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_LockLevel_3",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "207",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_OSSIState_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_OSSIState_TypeDef@TIM2_OSSIState_Enable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OSSIState_Enable",
+        "location": {
+          "column": "3",
+          "line": "224",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OSSIState_Enable",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_OSSIState_TypeDef@TIM2_OSSIState_Disable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OSSIState_Disable",
+        "location": {
+          "column": "3",
+          "line": "225",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OSSIState_Disable",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "222",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_OCIdleState_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_OCIdleState_TypeDef@TIM2_OCIdleState_Reset",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OCIdleState_Reset",
+        "location": {
+          "column": "3",
+          "line": "237",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OCIdleState_Reset",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_OCIdleState_TypeDef@TIM2_OCIdleState_Set",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_OCIdleState_Set",
+        "location": {
+          "column": "3",
+          "line": "238",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_OCIdleState_Set",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "235",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_ICPolarity_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_ICPolarity_TypeDef@TIM2_ICPolarity_Rising",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ICPolarity_Rising",
+        "location": {
+          "column": "3",
+          "line": "250",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ICPolarity_Rising",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_ICPolarity_TypeDef@TIM2_ICPolarity_Falling",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ICPolarity_Falling",
+        "location": {
+          "column": "3",
+          "line": "251",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ICPolarity_Falling",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "248",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_ICSelection_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_ICSelection_TypeDef@TIM2_ICSelection_DirectTI",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ICSelection_DirectTI",
+        "location": {
+          "column": "3",
+          "line": "263",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ICSelection_DirectTI",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_ICSelection_TypeDef@TIM2_ICSelection_IndirectTI",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ICSelection_IndirectTI",
+        "location": {
+          "column": "3",
+          "line": "264",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ICSelection_IndirectTI",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_ICSelection_TypeDef@TIM2_ICSelection_TRGI",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ICSelection_TRGI",
+        "location": {
+          "column": "3",
+          "line": "265",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ICSelection_TRGI",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "261",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_ICPSC_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_ICPSC_TypeDef@TIM2_ICPSC_DIV1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ICPSC_DIV1",
+        "location": {
+          "column": "3",
+          "line": "277",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ICPSC_DIV1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_ICPSC_TypeDef@TIM2_ICPSC_DIV2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ICPSC_DIV2",
+        "location": {
+          "column": "3",
+          "line": "278",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ICPSC_DIV2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_ICPSC_TypeDef@TIM2_ICPSC_DIV4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ICPSC_DIV4",
+        "location": {
+          "column": "3",
+          "line": "279",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ICPSC_DIV4",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_ICPSC_TypeDef@TIM2_ICPSC_DIV8",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ICPSC_DIV8",
+        "location": {
+          "column": "3",
+          "line": "280",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ICPSC_DIV8",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "275",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_IT_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_IT_TypeDef@TIM2_IT_Update",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_IT_Update",
+        "location": {
+          "column": "3",
+          "line": "292",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_IT_Update",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_IT_TypeDef@TIM2_IT_CC1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_IT_CC1",
+        "location": {
+          "column": "3",
+          "line": "293",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_IT_CC1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_IT_TypeDef@TIM2_IT_CC2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_IT_CC2",
+        "location": {
+          "column": "3",
+          "line": "294",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_IT_CC2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_IT_TypeDef@TIM2_IT_Trigger",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_IT_Trigger",
+        "location": {
+          "column": "3",
+          "line": "295",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_IT_Trigger",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_IT_TypeDef@TIM2_IT_Break",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_IT_Break",
+        "location": {
+          "column": "3",
+          "line": "296",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_IT_Break",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "290",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_ExtTRGPSC_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_ExtTRGPSC_TypeDef@TIM2_ExtTRGPSC_OFF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ExtTRGPSC_OFF",
+        "location": {
+          "column": "3",
+          "line": "308",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ExtTRGPSC_OFF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_ExtTRGPSC_TypeDef@TIM2_ExtTRGPSC_DIV2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ExtTRGPSC_DIV2",
+        "location": {
+          "column": "3",
+          "line": "309",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ExtTRGPSC_DIV2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_ExtTRGPSC_TypeDef@TIM2_ExtTRGPSC_DIV4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ExtTRGPSC_DIV4",
+        "location": {
+          "column": "3",
+          "line": "310",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ExtTRGPSC_DIV4",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_ExtTRGPSC_TypeDef@TIM2_ExtTRGPSC_DIV8",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ExtTRGPSC_DIV8",
+        "location": {
+          "column": "3",
+          "line": "311",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ExtTRGPSC_DIV8",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "306",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_TRGSelection_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_TRGSelection_TypeDef@TIM2_TRGSelection_TIM4",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TRGSelection_TIM4",
+        "location": {
+          "column": "3",
+          "line": "323",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TRGSelection_TIM4",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_TRGSelection_TypeDef@TIM2_TRGSelection_TIM1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TRGSelection_TIM1",
+        "location": {
+          "column": "3",
+          "line": "324",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TRGSelection_TIM1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_TRGSelection_TypeDef@TIM2_TRGSelection_TIM3",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TRGSelection_TIM3",
+        "location": {
+          "column": "3",
+          "line": "325",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TRGSelection_TIM3",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_TRGSelection_TypeDef@TIM2_TRGSelection_TIM5",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TRGSelection_TIM5",
+        "location": {
+          "column": "3",
+          "line": "326",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TRGSelection_TIM5",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_TRGSelection_TypeDef@TIM2_TRGSelection_TI1F_ED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TRGSelection_TI1F_ED",
+        "location": {
+          "column": "3",
+          "line": "327",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TRGSelection_TI1F_ED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_TRGSelection_TypeDef@TIM2_TRGSelection_TI1FP1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TRGSelection_TI1FP1",
+        "location": {
+          "column": "3",
+          "line": "328",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TRGSelection_TI1FP1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_TRGSelection_TypeDef@TIM2_TRGSelection_TI2FP2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TRGSelection_TI2FP2",
+        "location": {
+          "column": "3",
+          "line": "329",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TRGSelection_TI2FP2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_TRGSelection_TypeDef@TIM2_TRGSelection_ETRF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TRGSelection_ETRF",
+        "location": {
+          "column": "3",
+          "line": "330",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TRGSelection_ETRF",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "321",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_TIxExternalCLK1Source_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_TIxExternalCLK1Source_TypeDef@TIM2_TIxExternalCLK1Source_TI1ED",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TIxExternalCLK1Source_TI1ED",
+        "location": {
+          "column": "3",
+          "line": "342",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TIxExternalCLK1Source_TI1ED",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_TIxExternalCLK1Source_TypeDef@TIM2_TIxExternalCLK1Source_TI1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TIxExternalCLK1Source_TI1",
+        "location": {
+          "column": "3",
+          "line": "343",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TIxExternalCLK1Source_TI1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_TIxExternalCLK1Source_TypeDef@TIM2_TIxExternalCLK1Source_TI2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TIxExternalCLK1Source_TI2",
+        "location": {
+          "column": "3",
+          "line": "344",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TIxExternalCLK1Source_TI2",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "340",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_ExtTRGPolarity_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_ExtTRGPolarity_TypeDef@TIM2_ExtTRGPolarity_Inverted",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ExtTRGPolarity_Inverted",
+        "location": {
+          "column": "3",
+          "line": "356",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ExtTRGPolarity_Inverted",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_ExtTRGPolarity_TypeDef@TIM2_ExtTRGPolarity_NonInverted",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_ExtTRGPolarity_NonInverted",
+        "location": {
+          "column": "3",
+          "line": "357",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_ExtTRGPolarity_NonInverted",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "354",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_PSCReloadMode_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_PSCReloadMode_TypeDef@TIM2_PSCReloadMode_Update",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_PSCReloadMode_Update",
+        "location": {
+          "column": "3",
+          "line": "369",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_PSCReloadMode_Update",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_PSCReloadMode_TypeDef@TIM2_PSCReloadMode_Immediate",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_PSCReloadMode_Immediate",
+        "location": {
+          "column": "3",
+          "line": "370",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_PSCReloadMode_Immediate",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "367",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_EncoderMode_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_EncoderMode_TypeDef@TIM2_EncoderMode_TI1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_EncoderMode_TI1",
+        "location": {
+          "column": "3",
+          "line": "382",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_EncoderMode_TI1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_EncoderMode_TypeDef@TIM2_EncoderMode_TI2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_EncoderMode_TI2",
+        "location": {
+          "column": "3",
+          "line": "383",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_EncoderMode_TI2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_EncoderMode_TypeDef@TIM2_EncoderMode_TI12",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_EncoderMode_TI12",
+        "location": {
+          "column": "3",
+          "line": "384",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_EncoderMode_TI12",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "380",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_EventSource_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_EventSource_TypeDef@TIM2_EventSource_Update",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_EventSource_Update",
+        "location": {
+          "column": "3",
+          "line": "396",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_EventSource_Update",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_EventSource_TypeDef@TIM2_EventSource_CC1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_EventSource_CC1",
+        "location": {
+          "column": "3",
+          "line": "397",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_EventSource_CC1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_EventSource_TypeDef@TIM2_EventSource_CC2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_EventSource_CC2",
+        "location": {
+          "column": "3",
+          "line": "398",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_EventSource_CC2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_EventSource_TypeDef@TIM2_EventSource_Trigger",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_EventSource_Trigger",
+        "location": {
+          "column": "3",
+          "line": "399",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_EventSource_Trigger",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_EventSource_TypeDef@TIM2_EventSource_Break",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_EventSource_Break",
+        "location": {
+          "column": "3",
+          "line": "400",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_EventSource_Break",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "394",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_UpdateSource_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_UpdateSource_TypeDef@TIM2_UpdateSource_Global",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_UpdateSource_Global",
+        "location": {
+          "column": "3",
+          "line": "412",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_UpdateSource_Global",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_UpdateSource_TypeDef@TIM2_UpdateSource_Regular",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_UpdateSource_Regular",
+        "location": {
+          "column": "3",
+          "line": "413",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_UpdateSource_Regular",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "410",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_TRGOSource_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_TRGOSource_TypeDef@TIM2_TRGOSource_Reset",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TRGOSource_Reset",
+        "location": {
+          "column": "3",
+          "line": "425",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TRGOSource_Reset",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_TRGOSource_TypeDef@TIM2_TRGOSource_Enable",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TRGOSource_Enable",
+        "location": {
+          "column": "3",
+          "line": "426",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TRGOSource_Enable",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_TRGOSource_TypeDef@TIM2_TRGOSource_Update",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TRGOSource_Update",
+        "location": {
+          "column": "3",
+          "line": "427",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TRGOSource_Update",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_TRGOSource_TypeDef@TIM2_TRGOSource_OC1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TRGOSource_OC1",
+        "location": {
+          "column": "3",
+          "line": "428",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TRGOSource_OC1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_TRGOSource_TypeDef@TIM2_TRGOSource_OC1REF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TRGOSource_OC1REF",
+        "location": {
+          "column": "3",
+          "line": "429",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TRGOSource_OC1REF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_TRGOSource_TypeDef@TIM2_TRGOSource_OC2REF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_TRGOSource_OC2REF",
+        "location": {
+          "column": "3",
+          "line": "430",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_TRGOSource_OC2REF",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "423",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_SlaveMode_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_SlaveMode_TypeDef@TIM2_SlaveMode_Reset",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_SlaveMode_Reset",
+        "location": {
+          "column": "3",
+          "line": "442",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_SlaveMode_Reset",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_SlaveMode_TypeDef@TIM2_SlaveMode_Gated",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_SlaveMode_Gated",
+        "location": {
+          "column": "3",
+          "line": "443",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_SlaveMode_Gated",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_SlaveMode_TypeDef@TIM2_SlaveMode_Trigger",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_SlaveMode_Trigger",
+        "location": {
+          "column": "3",
+          "line": "444",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_SlaveMode_Trigger",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_SlaveMode_TypeDef@TIM2_SlaveMode_External1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_SlaveMode_External1",
+        "location": {
+          "column": "3",
+          "line": "445",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_SlaveMode_External1",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "440",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_FLAG_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_FLAG_TypeDef@TIM2_FLAG_Update",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_FLAG_Update",
+        "location": {
+          "column": "3",
+          "line": "457",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_FLAG_Update",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_FLAG_TypeDef@TIM2_FLAG_CC1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_FLAG_CC1",
+        "location": {
+          "column": "3",
+          "line": "458",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_FLAG_CC1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_FLAG_TypeDef@TIM2_FLAG_CC2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_FLAG_CC2",
+        "location": {
+          "column": "3",
+          "line": "459",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_FLAG_CC2",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_FLAG_TypeDef@TIM2_FLAG_Trigger",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_FLAG_Trigger",
+        "location": {
+          "column": "3",
+          "line": "460",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_FLAG_Trigger",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_FLAG_TypeDef@TIM2_FLAG_Break",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_FLAG_Break",
+        "location": {
+          "column": "3",
+          "line": "461",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_FLAG_Break",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_FLAG_TypeDef@TIM2_FLAG_CC1OF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_FLAG_CC1OF",
+        "location": {
+          "column": "3",
+          "line": "462",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_FLAG_CC1OF",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_FLAG_TypeDef@TIM2_FLAG_CC2OF",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_FLAG_CC2OF",
+        "location": {
+          "column": "3",
+          "line": "463",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_FLAG_CC2OF",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "455",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@TIM2_DMASource_TypeDef",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@TIM2_DMASource_TypeDef@TIM2_DMASource_Update",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_DMASource_Update",
+        "location": {
+          "column": "3",
+          "line": "475",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_DMASource_Update",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_DMASource_TypeDef@TIM2_DMASource_CC1",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_DMASource_CC1",
+        "location": {
+          "column": "3",
+          "line": "476",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_DMASource_CC1",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@TIM2_DMASource_TypeDef@TIM2_DMASource_CC2",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TIM2_DMASource_CC2",
+        "location": {
+          "column": "3",
+          "line": "477",
+          "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+        },
+        "name": "TIM2_DMASource_CC2",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "473",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@14861@macro@IS_TIM2_FORCED_ACTION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_FORCED_ACTION",
+    "location": {
+      "column": "9",
+      "line": "502",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_FORCED_ACTION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@15042@macro@IS_TIM2_PRESCALER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_PRESCALER",
+    "location": {
+      "column": "9",
+      "line": "509",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_PRESCALER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@15496@macro@IS_TIM2_OC_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_OC_MODE",
+    "location": {
+      "column": "9",
+      "line": "522",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_OC_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@15775@macro@IS_TIM2_OCM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_OCM",
+    "location": {
+      "column": "9",
+      "line": "530",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_OCM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@16213@macro@IS_TIM2_OPM_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_OPM_MODE",
+    "location": {
+      "column": "9",
+      "line": "542",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_OPM_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@16371@macro@IS_TIM2_CHANNEL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_CHANNEL",
+    "location": {
+      "column": "9",
+      "line": "549",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_CHANNEL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@16531@macro@IS_TIM2_COUNTER_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_COUNTER_MODE",
+    "location": {
+      "column": "9",
+      "line": "556",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_COUNTER_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@16870@macro@IS_TIM2_OC_POLARITY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_OC_POLARITY",
+    "location": {
+      "column": "9",
+      "line": "566",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_OC_POLARITY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@17056@macro@IS_TIM2_OUTPUT_STATE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_OUTPUT_STATE",
+    "location": {
+      "column": "9",
+      "line": "573",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_OUTPUT_STATE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@17240@macro@IS_TIM2_BREAK_STATE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_BREAK_STATE",
+    "location": {
+      "column": "9",
+      "line": "580",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_BREAK_STATE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@17411@macro@IS_TIM2_BREAK_POLARITY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_BREAK_POLARITY",
+    "location": {
+      "column": "9",
+      "line": "587",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_BREAK_POLARITY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@17602@macro@IS_TIM2_AUTOMATIC_OUTPUT_STATE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_AUTOMATIC_OUTPUT_STATE",
+    "location": {
+      "column": "9",
+      "line": "594",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_AUTOMATIC_OUTPUT_STATE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@17791@macro@IS_TIM2_LOCK_LEVEL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_LOCK_LEVEL",
+    "location": {
+      "column": "9",
+      "line": "601",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_LOCK_LEVEL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@18064@macro@IS_TIM2_OSSI_STATE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_OSSI_STATE",
+    "location": {
+      "column": "9",
+      "line": "610",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_OSSI_STATE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@18236@macro@IS_TIM2_OCIDLE_STATE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_OCIDLE_STATE",
+    "location": {
+      "column": "9",
+      "line": "617",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_OCIDLE_STATE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@18409@macro@IS_TIM2_IC_POLARITY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_IC_POLARITY",
+    "location": {
+      "column": "9",
+      "line": "625",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_IC_POLARITY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@18592@macro@IS_TIM2_IC_SELECTION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_IC_SELECTION",
+    "location": {
+      "column": "9",
+      "line": "632",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_IC_SELECTION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@18836@macro@IS_TIM2_IC_PRESCALER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_IC_PRESCALER",
+    "location": {
+      "column": "9",
+      "line": "640",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_IC_PRESCALER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@19106@macro@IS_TIM2_IC_FILTER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_IC_FILTER",
+    "location": {
+      "column": "9",
+      "line": "649",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_IC_FILTER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@19216@macro@IS_TIM2_IT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_IT",
+    "location": {
+      "column": "9",
+      "line": "655",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_IT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@19262@macro@IS_TIM2_GET_IT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_GET_IT",
+    "location": {
+      "column": "9",
+      "line": "658",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_GET_IT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@19524@macro@IS_TIM2_EXT_PRESCALER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_EXT_PRESCALER",
+    "location": {
+      "column": "9",
+      "line": "668",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_EXT_PRESCALER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@19801@macro@IS_TIM2_TRIGGER_SELECTION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_TRIGGER_SELECTION",
+    "location": {
+      "column": "9",
+      "line": "676",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_TRIGGER_SELECTION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@20250@macro@IS_TIM2_TIX_TRIGGER_SELECTION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_TIX_TRIGGER_SELECTION",
+    "location": {
+      "column": "9",
+      "line": "687",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_TIX_TRIGGER_SELECTION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@20519@macro@IS_TIM2_TIXCLK_SOURCE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_TIXCLK_SOURCE",
+    "location": {
+      "column": "9",
+      "line": "695",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_TIXCLK_SOURCE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@20777@macro@IS_TIM2_EXT_POLARITY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_EXT_POLARITY",
+    "location": {
+      "column": "9",
+      "line": "703",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_EXT_POLARITY",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@20986@macro@IS_TIM2_EXT_FILTER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_EXT_FILTER",
+    "location": {
+      "column": "9",
+      "line": "710",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_EXT_FILTER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@21105@macro@IS_TIM2_PRESCALER_RELOAD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_PRESCALER_RELOAD",
+    "location": {
+      "column": "9",
+      "line": "716",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_PRESCALER_RELOAD",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@21295@macro@IS_TIM2_ENCODER_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_ENCODER_MODE",
+    "location": {
+      "column": "9",
+      "line": "723",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_ENCODER_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@21505@macro@IS_TIM2_EVENT_SOURCE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_EVENT_SOURCE",
+    "location": {
+      "column": "9",
+      "line": "731",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_EVENT_SOURCE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@21665@macro@IS_TIM2_UPDATE_SOURCE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_UPDATE_SOURCE",
+    "location": {
+      "column": "9",
+      "line": "738",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_UPDATE_SOURCE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@21847@macro@IS_TIM2_TRGO_SOURCE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_TRGO_SOURCE",
+    "location": {
+      "column": "9",
+      "line": "745",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_TRGO_SOURCE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@22203@macro@IS_TIM2_SLAVE_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_SLAVE_MODE",
+    "location": {
+      "column": "9",
+      "line": "755",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_SLAVE_MODE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@22453@macro@IS_TIM2_GET_FLAG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_GET_FLAG",
+    "location": {
+      "column": "9",
+      "line": "763",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_GET_FLAG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@22756@macro@IS_TIM2_CLEAR_FLAG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_CLEAR_FLAG",
+    "location": {
+      "column": "9",
+      "line": "772",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_CLEAR_FLAG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_tim2.h@22909@macro@IS_TIM2_DMA_SOURCE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_TIM2_DMA_SOURCE",
+    "location": {
+      "column": "9",
+      "line": "779",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "IS_TIM2_DMA_SOURCE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_DeInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "790",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_DeInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_TimeBaseInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_TimeBaseInit(TIM2_Prescaler_TypeDef, TIM2_CounterMode_TypeDef, uint16_t)",
+    "location": {
+      "column": "6",
+      "line": "791",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_TimeBaseInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_PrescalerConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_PrescalerConfig(TIM2_Prescaler_TypeDef, TIM2_PSCReloadMode_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "793",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_PrescalerConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_CounterModeConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_CounterModeConfig(TIM2_CounterMode_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "795",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_CounterModeConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SetCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_SetCounter(uint16_t)",
+    "location": {
+      "column": "6",
+      "line": "796",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_SetCounter",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SetAutoreload",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_SetAutoreload(uint16_t)",
+    "location": {
+      "column": "6",
+      "line": "797",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_SetAutoreload",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GetCounter",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint16_t TIM2_GetCounter(void)",
+    "location": {
+      "column": "10",
+      "line": "798",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_GetCounter",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GetPrescaler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "TIM2_Prescaler_TypeDef TIM2_GetPrescaler(void)",
+    "location": {
+      "column": "24",
+      "line": "799",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_GetPrescaler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_UpdateDisableConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_UpdateDisableConfig(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "800",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_UpdateDisableConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_UpdateRequestConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_UpdateRequestConfig(TIM2_UpdateSource_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "801",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_UpdateRequestConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ARRPreloadConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_ARRPreloadConfig(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "802",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_ARRPreloadConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SelectOnePulseMode",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_SelectOnePulseMode(TIM2_OPMode_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "803",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_SelectOnePulseMode",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_Cmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_Cmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "804",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_Cmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC1Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_OC1Init(TIM2_OCMode_TypeDef, TIM2_OutputState_TypeDef, uint16_t, TIM2_OCPolarity_TypeDef, TIM2_OCIdleState_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "807",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_OC1Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC2Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_OC2Init(TIM2_OCMode_TypeDef, TIM2_OutputState_TypeDef, uint16_t, TIM2_OCPolarity_TypeDef, TIM2_OCIdleState_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "812",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_OC2Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_BKRConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_BKRConfig(TIM2_OSSIState_TypeDef, TIM2_LockLevel_TypeDef, TIM2_BreakState_TypeDef, TIM2_BreakPolarity_TypeDef, TIM2_AutomaticOutput_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "817",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_BKRConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_CtrlPWMOutputs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_CtrlPWMOutputs(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "822",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_CtrlPWMOutputs",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SelectOCxM",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_SelectOCxM(TIM2_Channel_TypeDef, TIM2_OCMode_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "823",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_SelectOCxM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SetCompare1",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_SetCompare1(uint16_t)",
+    "location": {
+      "column": "6",
+      "line": "824",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_SetCompare1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SetCompare2",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_SetCompare2(uint16_t)",
+    "location": {
+      "column": "6",
+      "line": "825",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_SetCompare2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ForcedOC1Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_ForcedOC1Config(TIM2_ForcedAction_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "826",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_ForcedOC1Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ForcedOC2Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_ForcedOC2Config(TIM2_ForcedAction_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "827",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_ForcedOC2Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC1PreloadConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_OC1PreloadConfig(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "828",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_OC1PreloadConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC2PreloadConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_OC2PreloadConfig(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "829",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_OC2PreloadConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC1FastConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_OC1FastConfig(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "830",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_OC1FastConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC2FastConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_OC2FastConfig(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "831",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_OC2FastConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC1PolarityConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_OC1PolarityConfig(TIM2_OCPolarity_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "832",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_OC1PolarityConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC2PolarityConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_OC2PolarityConfig(TIM2_OCPolarity_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "833",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_OC2PolarityConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_CCxCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_CCxCmd(TIM2_Channel_TypeDef, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "834",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_CCxCmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ICInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_ICInit(TIM2_Channel_TypeDef, TIM2_ICPolarity_TypeDef, TIM2_ICSelection_TypeDef, TIM2_ICPSC_TypeDef, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "837",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_ICInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_PWMIConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_PWMIConfig(TIM2_Channel_TypeDef, TIM2_ICPolarity_TypeDef, TIM2_ICSelection_TypeDef, TIM2_ICPSC_TypeDef, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "842",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_PWMIConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GetCapture1",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint16_t TIM2_GetCapture1(void)",
+    "location": {
+      "column": "10",
+      "line": "847",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_GetCapture1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GetCapture2",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint16_t TIM2_GetCapture2(void)",
+    "location": {
+      "column": "10",
+      "line": "848",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_GetCapture2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SetIC1Prescaler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_SetIC1Prescaler(TIM2_ICPSC_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "849",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_SetIC1Prescaler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SetIC2Prescaler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_SetIC2Prescaler(TIM2_ICPSC_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "850",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_SetIC2Prescaler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ITConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_ITConfig(TIM2_IT_TypeDef, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "853",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_ITConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GenerateEvent",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_GenerateEvent(TIM2_EventSource_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "854",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_GenerateEvent",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "FlagStatus TIM2_GetFlagStatus(TIM2_FLAG_TypeDef)",
+    "location": {
+      "column": "12",
+      "line": "855",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_GetFlagStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ClearFlag",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_ClearFlag(TIM2_FLAG_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "856",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_ClearFlag",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GetITStatus",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "ITStatus TIM2_GetITStatus(TIM2_IT_TypeDef)",
+    "location": {
+      "column": "10",
+      "line": "857",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_GetITStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_ClearITPendingBit(TIM2_IT_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "858",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_ClearITPendingBit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_DMACmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_DMACmd(TIM2_DMASource_TypeDef, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "859",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_DMACmd",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SelectCCDMA",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_SelectCCDMA(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "860",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_SelectCCDMA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_InternalClockConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_InternalClockConfig(void)",
+    "location": {
+      "column": "6",
+      "line": "863",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_InternalClockConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_TIxExternalClockConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_TIxExternalClockConfig(TIM2_TIxExternalCLK1Source_TypeDef, TIM2_ICPolarity_TypeDef, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "864",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_TIxExternalClockConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ETRClockMode1Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_ETRClockMode1Config(TIM2_ExtTRGPSC_TypeDef, TIM2_ExtTRGPolarity_TypeDef, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "867",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_ETRClockMode1Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ETRClockMode2Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_ETRClockMode2Config(TIM2_ExtTRGPSC_TypeDef, TIM2_ExtTRGPolarity_TypeDef, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "870",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_ETRClockMode2Config",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SelectInputTrigger",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_SelectInputTrigger(TIM2_TRGSelection_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "875",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_SelectInputTrigger",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SelectOutputTrigger",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_SelectOutputTrigger(TIM2_TRGOSource_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "876",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_SelectOutputTrigger",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SelectSlaveMode",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_SelectSlaveMode(TIM2_SlaveMode_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "877",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_SelectSlaveMode",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SelectMasterSlaveMode",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_SelectMasterSlaveMode(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "878",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_SelectMasterSlaveMode",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ETRConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_ETRConfig(TIM2_ExtTRGPSC_TypeDef, TIM2_ExtTRGPolarity_TypeDef, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "879",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_ETRConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_EncoderInterfaceConfig",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_EncoderInterfaceConfig(TIM2_EncoderMode_TypeDef, TIM2_ICPolarity_TypeDef, TIM2_ICPolarity_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "884",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_EncoderInterfaceConfig",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SelectHallSensor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIM2_SelectHallSensor(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "887",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\inc\\stm8l15x_tim2.h"
+    },
+    "name": "TIM2_SelectHallSensor",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:stm8l15x_gpio.h@1169@macro@__STM8L15x_GPIO_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -36378,6 +39630,188 @@
     "scope": null
   },
   {
+    "ID": "c:@F@EXTI_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "117",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetPinSensitivity",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_SetPinSensitivity(EXTI_Pin_TypeDef, EXTI_Trigger_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "154",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_SetPinSensitivity",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SelectPort",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_SelectPort(EXTI_Port_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "213",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_SelectPort",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetHalfPortSelection",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_SetHalfPortSelection(EXTI_HalfPort_TypeDef, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "274",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_SetHalfPortSelection",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetPortSensitivity",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_SetPortSensitivity(EXTI_Port_TypeDef, EXTI_Trigger_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "332",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_SetPortSensitivity",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetPinSensitivity",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "EXTI_Trigger_TypeDef EXTI_GetPinSensitivity(EXTI_Pin_TypeDef)",
+    "location": {
+      "column": "22",
+      "line": "370",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_GetPinSensitivity",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_exti.c@15297@F@EXTI_GetPinSensitivity@value",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "value",
+    "location": {
+      "column": "11",
+      "line": "372",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "value",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetPortSensitivity",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "EXTI_Trigger_TypeDef EXTI_GetPortSensitivity(EXTI_Port_TypeDef)",
+    "location": {
+      "column": "22",
+      "line": "421",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_GetPortSensitivity",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_exti.c@17077@F@EXTI_GetPortSensitivity@portsensitivity",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "portsensitivity",
+    "location": {
+      "column": "11",
+      "line": "423",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "portsensitivity",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetITStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "ITStatus EXTI_GetITStatus(EXTI_IT_TypeDef)",
+    "location": {
+      "column": "10",
+      "line": "481",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_GetITStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_exti.c@19072@F@EXTI_GetITStatus@status",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "status",
+    "location": {
+      "column": "12",
+      "line": "483",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_ClearITPendingBit(EXTI_IT_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "518",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "EXTI_ClearITPendingBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_exti.c@20402@F@EXTI_ClearITPendingBit@tempvalue",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tempvalue",
+    "location": {
+      "column": "12",
+      "line": "520",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
+    },
+    "name": "tempvalue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@ADC_DeInit",
     "What": "Function",
     "defdec": "Def",
@@ -36784,7 +40218,7 @@
     "scope": null
   },
   {
-    "ID": "c:stm8l15x_conf.h@3080@macro@assert_param",
+    "ID": "c:stm8l15x_conf.h@3074@macro@assert_param",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "assert_param",
@@ -36795,188 +40229,6 @@
     },
     "name": "assert_param",
     "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_DeInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void EXTI_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "117",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
-    },
-    "name": "EXTI_DeInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_SetPinSensitivity",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void EXTI_SetPinSensitivity(EXTI_Pin_TypeDef, EXTI_Trigger_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "154",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
-    },
-    "name": "EXTI_SetPinSensitivity",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_SelectPort",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void EXTI_SelectPort(EXTI_Port_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "213",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
-    },
-    "name": "EXTI_SelectPort",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_SetHalfPortSelection",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void EXTI_SetHalfPortSelection(EXTI_HalfPort_TypeDef, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "274",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
-    },
-    "name": "EXTI_SetHalfPortSelection",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_SetPortSensitivity",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void EXTI_SetPortSensitivity(EXTI_Port_TypeDef, EXTI_Trigger_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "332",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
-    },
-    "name": "EXTI_SetPortSensitivity",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_GetPinSensitivity",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "EXTI_Trigger_TypeDef EXTI_GetPinSensitivity(EXTI_Pin_TypeDef)",
-    "location": {
-      "column": "22",
-      "line": "370",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
-    },
-    "name": "EXTI_GetPinSensitivity",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_exti.c@15297@F@EXTI_GetPinSensitivity@value",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "value",
-    "location": {
-      "column": "11",
-      "line": "372",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
-    },
-    "name": "value",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_GetPortSensitivity",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "EXTI_Trigger_TypeDef EXTI_GetPortSensitivity(EXTI_Port_TypeDef)",
-    "location": {
-      "column": "22",
-      "line": "421",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
-    },
-    "name": "EXTI_GetPortSensitivity",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_exti.c@17077@F@EXTI_GetPortSensitivity@portsensitivity",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "portsensitivity",
-    "location": {
-      "column": "11",
-      "line": "423",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
-    },
-    "name": "portsensitivity",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_GetITStatus",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "ITStatus EXTI_GetITStatus(EXTI_IT_TypeDef)",
-    "location": {
-      "column": "10",
-      "line": "481",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
-    },
-    "name": "EXTI_GetITStatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_exti.c@19072@F@EXTI_GetITStatus@status",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "status",
-    "location": {
-      "column": "12",
-      "line": "483",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
-    },
-    "name": "status",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@EXTI_ClearITPendingBit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void EXTI_ClearITPendingBit(EXTI_IT_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "518",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
-    },
-    "name": "EXTI_ClearITPendingBit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_exti.c@20402@F@EXTI_ClearITPendingBit@tempvalue",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "tempvalue",
-    "location": {
-      "column": "12",
-      "line": "520",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_exti.c"
-    },
-    "name": "tempvalue",
-    "origin": "project_file",
     "scope": null
   },
   {
@@ -37690,454 +40942,6 @@
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_clk.c"
     },
     "name": "CLK_ClearITPendingBit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_DeInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_DeInit(GPIO_TypeDef *)",
-    "location": {
-      "column": "6",
-      "line": "90",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_DeInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_Init(GPIO_TypeDef *, uint8_t, GPIO_Mode_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "127",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_ExternalPullUpConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_ExternalPullUpConfig(GPIO_TypeDef *, uint8_t, FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "203",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_ExternalPullUpConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_Write",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_Write(GPIO_TypeDef *, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "242",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_Write",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_WriteBit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_WriteBit(GPIO_TypeDef *, GPIO_Pin_TypeDef, BitAction)",
-    "location": {
-      "column": "6",
-      "line": "264",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_WriteBit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_SetBits",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_SetBits(GPIO_TypeDef *, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "297",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_SetBits",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_ResetBits",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_ResetBits(GPIO_TypeDef *, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "318",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_ResetBits",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_ToggleBits",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIO_ToggleBits(GPIO_TypeDef *, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "330",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_ToggleBits",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_ReadInputData",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t GPIO_ReadInputData(GPIO_TypeDef *)",
-    "location": {
-      "column": "9",
-      "line": "341",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_ReadInputData",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_ReadOutputData",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t GPIO_ReadOutputData(GPIO_TypeDef *)",
-    "location": {
-      "column": "9",
-      "line": "352",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_ReadOutputData",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_ReadInputDataBit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "BitStatus GPIO_ReadInputDataBit(GPIO_TypeDef *, GPIO_Pin_TypeDef)",
-    "location": {
-      "column": "11",
-      "line": "372",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_ReadInputDataBit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIO_ReadOutputDataBit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "BitStatus GPIO_ReadOutputDataBit(GPIO_TypeDef *, GPIO_Pin_TypeDef)",
-    "location": {
-      "column": "11",
-      "line": "383",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
-    },
-    "name": "GPIO_ReadOutputDataBit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_DeInit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LCD_DeInit(void)",
-    "location": {
-      "column": "6",
-      "line": "115",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_DeInit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_lcd.c@5359@F@LCD_DeInit@counter",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "counter",
-    "location": {
-      "column": "11",
-      "line": "117",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "counter",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LCD_Init(LCD_Prescaler_TypeDef, LCD_Divider_TypeDef, LCD_Duty_TypeDef, LCD_Bias_TypeDef, LCD_VoltageSource_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "194",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_PortMaskConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LCD_PortMaskConfig(LCD_PortMaskRegister_TypeDef, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "256",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_PortMaskConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_Cmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LCD_Cmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "273",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_Cmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_HighDriveCmd",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LCD_HighDriveCmd(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "299",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_HighDriveCmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_PulseOnDurationConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LCD_PulseOnDurationConfig(LCD_PulseOnDuration_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "329",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_PulseOnDurationConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_DeadTimeConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LCD_DeadTimeConfig(LCD_DeadTime_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "352",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_DeadTimeConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_BlinkConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LCD_BlinkConfig(LCD_BlinkMode_TypeDef, LCD_BlinkFrequency_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "385",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_BlinkConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_ContrastConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LCD_ContrastConfig(LCD_Contrast_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "413",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_ContrastConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_WriteRAM",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LCD_WriteRAM(LCD_RAMRegister_TypeDef, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "468",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_WriteRAM",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_PageSelect",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LCD_PageSelect(LCD_PageSelection_TypeDef)",
-    "location": {
-      "column": "6",
-      "line": "486",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_PageSelect",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_ITConfig",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LCD_ITConfig(FunctionalState)",
-    "location": {
-      "column": "6",
-      "line": "519",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_ITConfig",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_GetFlagStatus",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "FlagStatus LCD_GetFlagStatus(void)",
-    "location": {
-      "column": "12",
-      "line": "540",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_GetFlagStatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_lcd.c@23029@F@LCD_GetFlagStatus@status",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "status",
-    "location": {
-      "column": "14",
-      "line": "542",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "status",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_ClearFlag",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LCD_ClearFlag(void)",
-    "location": {
-      "column": "6",
-      "line": "563",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_ClearFlag",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_GetITStatus",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "ITStatus LCD_GetITStatus(void)",
-    "location": {
-      "column": "10",
-      "line": "576",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_GetITStatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_lcd.c@23802@F@LCD_GetITStatus@pendingbitstatus",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "pendingbitstatus",
-    "location": {
-      "column": "12",
-      "line": "578",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "pendingbitstatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:stm8l15x_lcd.c@23840@F@LCD_GetITStatus@enablestatus",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "enablestatus",
-    "location": {
-      "column": "11",
-      "line": "579",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "enablestatus",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_ClearITPendingBit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LCD_ClearITPendingBit(void)",
-    "location": {
-      "column": "6",
-      "line": "603",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
-    },
-    "name": "LCD_ClearITPendingBit",
     "origin": "project_file",
     "scope": null
   },
@@ -39556,16 +42360,464 @@
     "scope": null
   },
   {
-    "ID": "c:delay.c@1238@macro@SYS_CLK_HSE_DIV1",
+    "ID": "c:@F@LCD_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LCD_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "115",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_lcd.c@5359@F@LCD_DeInit@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "11",
+      "line": "117",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LCD_Init(LCD_Prescaler_TypeDef, LCD_Divider_TypeDef, LCD_Duty_TypeDef, LCD_Bias_TypeDef, LCD_VoltageSource_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "194",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_PortMaskConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LCD_PortMaskConfig(LCD_PortMaskRegister_TypeDef, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "256",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_PortMaskConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_Cmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LCD_Cmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "273",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_Cmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_HighDriveCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LCD_HighDriveCmd(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "299",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_HighDriveCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_PulseOnDurationConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LCD_PulseOnDurationConfig(LCD_PulseOnDuration_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "329",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_PulseOnDurationConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_DeadTimeConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LCD_DeadTimeConfig(LCD_DeadTime_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "352",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_DeadTimeConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_BlinkConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LCD_BlinkConfig(LCD_BlinkMode_TypeDef, LCD_BlinkFrequency_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "385",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_BlinkConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_ContrastConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LCD_ContrastConfig(LCD_Contrast_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "413",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_ContrastConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_WriteRAM",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LCD_WriteRAM(LCD_RAMRegister_TypeDef, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "468",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_WriteRAM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_PageSelect",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LCD_PageSelect(LCD_PageSelection_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "486",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_PageSelect",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_ITConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LCD_ITConfig(FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "519",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_ITConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "FlagStatus LCD_GetFlagStatus(void)",
+    "location": {
+      "column": "12",
+      "line": "540",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_lcd.c@23029@F@LCD_GetFlagStatus@status",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "status",
+    "location": {
+      "column": "14",
+      "line": "542",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_ClearFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LCD_ClearFlag(void)",
+    "location": {
+      "column": "6",
+      "line": "563",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_ClearFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_GetITStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "ITStatus LCD_GetITStatus(void)",
+    "location": {
+      "column": "10",
+      "line": "576",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_GetITStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_lcd.c@23802@F@LCD_GetITStatus@pendingbitstatus",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "pendingbitstatus",
+    "location": {
+      "column": "12",
+      "line": "578",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "pendingbitstatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8l15x_lcd.c@23840@F@LCD_GetITStatus@enablestatus",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "enablestatus",
+    "location": {
+      "column": "11",
+      "line": "579",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "enablestatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LCD_ClearITPendingBit(void)",
+    "location": {
+      "column": "6",
+      "line": "603",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_lcd.c"
+    },
+    "name": "LCD_ClearITPendingBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_DeInit(GPIO_TypeDef *)",
+    "location": {
+      "column": "6",
+      "line": "90",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_Init(GPIO_TypeDef *, uint8_t, GPIO_Mode_TypeDef)",
+    "location": {
+      "column": "6",
+      "line": "127",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ExternalPullUpConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_ExternalPullUpConfig(GPIO_TypeDef *, uint8_t, FunctionalState)",
+    "location": {
+      "column": "6",
+      "line": "203",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_ExternalPullUpConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_Write",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_Write(GPIO_TypeDef *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "242",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_Write",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_WriteBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_WriteBit(GPIO_TypeDef *, GPIO_Pin_TypeDef, BitAction)",
+    "location": {
+      "column": "6",
+      "line": "264",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_WriteBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_SetBits",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_SetBits(GPIO_TypeDef *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "297",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_SetBits",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ResetBits",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_ResetBits(GPIO_TypeDef *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "318",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_ResetBits",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ToggleBits",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_ToggleBits(GPIO_TypeDef *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "330",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_ToggleBits",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ReadInputData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t GPIO_ReadInputData(GPIO_TypeDef *)",
+    "location": {
+      "column": "9",
+      "line": "341",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_ReadInputData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ReadOutputData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t GPIO_ReadOutputData(GPIO_TypeDef *)",
+    "location": {
+      "column": "9",
+      "line": "352",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_ReadOutputData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ReadInputDataBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "BitStatus GPIO_ReadInputDataBit(GPIO_TypeDef *, GPIO_Pin_TypeDef)",
+    "location": {
+      "column": "11",
+      "line": "372",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_ReadInputDataBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ReadOutputDataBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "BitStatus GPIO_ReadOutputDataBit(GPIO_TypeDef *, GPIO_Pin_TypeDef)",
+    "location": {
+      "column": "11",
+      "line": "383",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\Libraries\\STM8L15x_StdPeriph_Driver\\src\\stm8l15x_gpio.c"
+    },
+    "name": "GPIO_ReadOutputDataBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:delay.c@1238@macro@SYS_CLK_HSI_DIV1",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "SYS_CLK_HSE_DIV1",
+    "display": "SYS_CLK_HSI_DIV1",
     "location": {
       "column": "9",
       "line": "32",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\delay.c"
     },
-    "name": "SYS_CLK_HSE_DIV1",
+    "name": "SYS_CLK_HSI_DIV1",
     "origin": "project_file",
     "scope": null
   },
@@ -39646,7 +42898,7 @@
     "display": "void delay_10us(u16)",
     "location": {
       "column": "6",
-      "line": "175",
+      "line": "174",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\delay.c"
     },
     "name": "delay_10us",
@@ -39898,7 +43150,7 @@
     "display": "void DS18B20_SendU8(unsigned char)",
     "location": {
       "column": "6",
-      "line": "108",
+      "line": "107",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "DS18B20_SendU8",
@@ -39906,13 +43158,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@4505@F@DS18B20_SendU8@i",
+    "ID": "c:ds18b20.c@4463@F@DS18B20_SendU8@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "19",
-      "line": "110",
+      "line": "109",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "i",
@@ -39926,7 +43178,7 @@
     "display": "unsigned char DS18B20_ReadU8(void)",
     "location": {
       "column": "15",
-      "line": "130",
+      "line": "129",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "DS18B20_ReadU8",
@@ -39934,13 +43186,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@5304@F@DS18B20_ReadU8@i",
+    "ID": "c:ds18b20.c@5262@F@DS18B20_ReadU8@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "19",
-      "line": "132",
+      "line": "131",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "i",
@@ -39948,13 +43200,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@5304@F@DS18B20_ReadU8@d8",
+    "ID": "c:ds18b20.c@5262@F@DS18B20_ReadU8@d8",
     "What": "Variable",
     "defdec": "Dec",
     "display": "d8",
     "location": {
       "column": "21",
-      "line": "132",
+      "line": "131",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "d8",
@@ -39968,7 +43220,7 @@
     "display": "void Init_DS18B20(void)",
     "location": {
       "column": "6",
-      "line": "157",
+      "line": "156",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "Init_DS18B20",
@@ -39976,13 +43228,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@6303@F@Init_DS18B20@i",
+    "ID": "c:ds18b20.c@6261@F@Init_DS18B20@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "19",
-      "line": "159",
+      "line": "158",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "i",
@@ -39996,7 +43248,7 @@
     "display": "s16 Read_DS18B20(void)",
     "location": {
       "column": "5",
-      "line": "177",
+      "line": "176",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "Read_DS18B20",
@@ -40004,13 +43256,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@7061@F@Read_DS18B20@i",
+    "ID": "c:ds18b20.c@7019@F@Read_DS18B20@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "19",
-      "line": "179",
+      "line": "178",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "i",
@@ -40018,13 +43270,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@7083@F@Read_DS18B20@tl",
+    "ID": "c:ds18b20.c@7041@F@Read_DS18B20@tl",
     "What": "Variable",
     "defdec": "Def",
     "display": "tl",
     "location": {
       "column": "19",
-      "line": "180",
+      "line": "179",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "tl",
@@ -40032,13 +43284,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@7106@F@Read_DS18B20@th",
+    "ID": "c:ds18b20.c@7064@F@Read_DS18B20@th",
     "What": "Variable",
     "defdec": "Def",
     "display": "th",
     "location": {
       "column": "19",
-      "line": "181",
+      "line": "180",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "th",
@@ -40606,6 +43858,104 @@
     "scope": null
   },
   {
+    "ID": "c:delay.h@116@macro@__DELAY_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DELAY_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\delay.h"
+    },
+    "name": "__DELAY_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay_ms",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay_ms(u16)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\delay.h"
+    },
+    "name": "delay_ms",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay_ms",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay_ms(u16)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\delay.h"
+    },
+    "name": "delay_ms",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay_1us",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay_1us(u16)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\delay.h"
+    },
+    "name": "delay_1us",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay_1us",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay_1us(u16)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\delay.h"
+    },
+    "name": "delay_1us",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay_10us",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay_10us(u16)",
+    "location": {
+      "column": "6",
+      "line": "9",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\delay.h"
+    },
+    "name": "delay_10us",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay_10us",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay_10us(u16)",
+    "location": {
+      "column": "6",
+      "line": "9",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\delay.h"
+    },
+    "name": "delay_10us",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:@wakeup_flag",
     "What": "Variable",
     "defdec": "Def",
@@ -40816,13 +44166,27 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@F@CLK_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_Config(void)",
+    "location": {
+      "column": "13",
+      "line": "95",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\main.c"
+    },
+    "name": "CLK_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@RTC_restart",
     "What": "Function",
     "defdec": "Def",
     "display": "void RTC_restart(void)",
     "location": {
       "column": "6",
-      "line": "97",
+      "line": "107",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\main.c"
     },
     "name": "RTC_restart",
@@ -40836,7 +44200,7 @@
     "display": "void display_temp(void)",
     "location": {
       "column": "6",
-      "line": "103",
+      "line": "113",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\main.c"
     },
     "name": "display_temp",
@@ -40850,81 +44214,11 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "146",
+      "line": "156",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\main.c"
     },
     "name": "main",
     "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:delay.h@116@macro@__DELAY_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DELAY_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\delay.h"
-    },
-    "name": "__DELAY_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delay_ms",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delay_ms(u16)",
-    "location": {
-      "column": "6",
-      "line": "7",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\delay.h"
-    },
-    "name": "delay_ms",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delay_ms",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delay_ms(u16)",
-    "location": {
-      "column": "6",
-      "line": "7",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\delay.h"
-    },
-    "name": "delay_ms",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delay_10us",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delay_10us(u16)",
-    "location": {
-      "column": "6",
-      "line": "8",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\delay.h"
-    },
-    "name": "delay_10us",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delay_10us",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delay_10us(u16)",
-    "location": {
-      "column": "6",
-      "line": "8",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\delay.h"
-    },
-    "name": "delay_10us",
-    "origin": "user_include",
     "scope": null
   },
   {

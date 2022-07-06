@@ -72,8 +72,7 @@ unsigned char DS18B20_Start(void) //复位ds18b20芯片
     DS18B20_PIN_SET_OUT(); //置为输出口
     //GPIO_ResetBits(GPIOE, GPIO_Pin_7);
     GPIOC->ODR &= (uint8_t)(~0x01);
-    _delay_us(600);
-    //for(i=0; i<30; i++) _delay_us(20);
+    delay_1us(500);
     //GPIO_SetBits(GPIOE, GPIO_Pin_7);
     GPIOC->ODR |= 0x01;
     DS18B20_PIN_SET_IN();  //置为输入,主机释放总线,准备接收DS18B20的应答脉冲

@@ -75,8 +75,6 @@ void GPIO_Initialization(void)
 
 void RTC_Periph_Init(void)
 {
-  CLK_SYSCLKDivConfig(CLK_SYSCLKDiv_1);
-  CLK_PeripheralClockConfig(CLK_Peripheral_RTC, ENABLE);
 #ifdef USE_LSE
   CLK_RTCClockConfig(CLK_RTCCLKSource_LSE, CLK_RTCCLKDiv_1);
 #else
@@ -92,6 +90,18 @@ void RTC_Periph_Init(void)
   RTC_InitStr.RTC_AsynchPrediv = 0x7f;
   RTC_InitStr.RTC_SynchPrediv = 0x00ff;
   RTC_Init(&RTC_InitStr);
+}
+
+static void CLK_Config(void)
+{
+  /*High speed internal clock prescaler:1*/
+  CLK_SYSCLKDivConfig(CLK_SYSCLKDiv_1);
+  
+  /*Enable RTC CLK*/
+  CLK_PeripheralClockConfig(CLK_Peripheral_RTC, ENABLE);
+  
+  /*Enable TIM4 CLK*/
+  CLK_PeripheralClockConfig(CLK_Peripheral_TIM4,ENABLE);
 }
 
 void RTC_restart(void)
@@ -147,6 +157,7 @@ void main(void)
 {  
   GPIO_Initialization();
   LCD_GLASS_Init();
+  CLK_Config();
   RTC_Periph_Init();
   Init_DS18B20();
   enableInterrupts();
@@ -156,6 +167,7 @@ void main(void)
   /* Infinite loop */
   while (1)
   {
+    //DS18B20_Start();
     temp_int = Read_DS18B20();
     display_temp();
     RTC_restart();
