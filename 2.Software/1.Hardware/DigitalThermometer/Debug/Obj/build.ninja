@@ -20,7 +20,6 @@ rule browsedata
 
 
 #Build steps
-build stm8l15x_adc.pbi : index stm8l15x_adc.xcl
 build stm8l15x_clk.pbi : index stm8l15x_clk.xcl
 build stm8l15x_exti.pbi : index stm8l15x_exti.xcl
 build stm8l15x_gpio.pbi : index stm8l15x_gpio.xcl
@@ -31,10 +30,10 @@ build ds18b20.pbi : index ds18b20.xcl
 build main.pbi : index main.xcl
 build stm8l15x_it.pbi : index stm8l15x_it.xcl
 build stm8l_discovery_lcd.pbi : index stm8l_discovery_lcd.xcl
-build DigitalThermometer_part0.pbi : link stm8l15x_adc.pbi stm8l15x_clk.pbi stm8l15x_exti.pbi
-build DigitalThermometer_part1.pbi : link stm8l15x_gpio.pbi stm8l15x_lcd.pbi stm8l15x_rtc.pbi
-build DigitalThermometer_part2.pbi : link delay.pbi ds18b20.pbi main.pbi
-build DigitalThermometer_part3.pbi : link stm8l15x_it.pbi stm8l_discovery_lcd.pbi
+build DigitalThermometer_part0.pbi : link stm8l15x_clk.pbi stm8l15x_exti.pbi stm8l15x_gpio.pbi
+build DigitalThermometer_part1.pbi : link stm8l15x_lcd.pbi stm8l15x_rtc.pbi delay.pbi
+build DigitalThermometer_part2.pbi : link ds18b20.pbi main.pbi stm8l15x_it.pbi
+build DigitalThermometer_part3.pbi : link stm8l_discovery_lcd.pbi
 build DigitalThermometer.pbd : link DigitalThermometer_part0.pbi DigitalThermometer_part1.pbi DigitalThermometer_part2.pbi DigitalThermometer_part3.pbi
 build DigitalThermometer.pbw : browsedata DigitalThermometer.pbd
 

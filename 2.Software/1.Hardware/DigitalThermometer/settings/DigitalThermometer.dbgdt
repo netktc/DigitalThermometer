@@ -770,7 +770,7 @@
                     <item>tl</item>
                     <item>th</item>
                     <item>display_array</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

@@ -2161,9 +2161,6 @@
                 <name>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h</name>
             </file>
             <file>
-                <name>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h</name>
-            </file>
-            <file>
                 <name>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h</name>
             </file>
             <file>
@@ -2181,9 +2178,6 @@
         </group>
         <group>
             <name>src</name>
-            <file>
-                <name>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_adc.c</name>
-            </file>
             <file>
                 <name>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c</name>
             </file>

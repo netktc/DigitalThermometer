@@ -118,7 +118,7 @@ void LCD_GLASS_Init(void)
   LCD_PortMaskConfig(LCD_PortMaskRegister_2, 0xff);
 
   /* To set contrast to mean value */
-  LCD_ContrastConfig(LCD_Contrast_3V0);
+  LCD_ContrastConfig((LCD_Contrast_TypeDef)LCD_Contrast_3V0);
 
   LCD_DeadTimeConfig(LCD_DeadTime_0);
   LCD_PulseOnDurationConfig(LCD_PulseOnDuration_1);
@@ -143,7 +143,7 @@ void LCD_contrast()
   {
     contrast += 2;
     if (contrast > LCD_Contrast_3V3)
-      contrast = LCD_Contrast_2V6;
+      contrast = (LCD_Contrast_TypeDef)LCD_Contrast_2V6;
 
     LCD_ContrastConfig(contrast);
     delay_ms(100);

@@ -26,7 +26,7 @@
 #include "stm8l15x.h"
 
 /* Uncomment the line below to enable peripheral header file inclusion */
-#include "stm8l15x_adc.h"
+/* #include "stm8l15x_adc.h" */
 /* #include "stm8l15x_beep.h" */
 #include "stm8l15x_clk.h"
 /* #include "stm8l15x_comp.h" */
@@ -46,7 +46,7 @@
 /* #include "stm8l15x_spi.h" */
 /* #include "stm8l15x_syscfg.h" */
 /* #include "stm8l15x_tim1.h" */
-#include "stm8l15x_tim2.h"
+/* #include "stm8l15x_tim2.h" */
 /* #include "stm8l15x_tim3.h" */
 /* #include "stm8l15x_tim4.h" */
 /* #include "stm8l15x_usart.h"*/

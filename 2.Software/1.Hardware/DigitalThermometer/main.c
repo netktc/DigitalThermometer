@@ -30,7 +30,7 @@
 #include "main.h"
 #include "stm8l_discovery_lcd.h"
 #include "ds18b20.h"
-//#include "delay.h"
+#include "delay.h"
 
 /** @addtogroup STM8L15x_StdPeriph_Template
   * @{
@@ -54,21 +54,19 @@ RTC_InitTypeDef   RTC_InitStr;
 void GPIO_Initialization(void);
 void RTC_Periph_Init(void);
 void RTC_restart(void);
-void display_temp(void);
+void display_temp(TemperatureTypeDef* Temperature);
 void delay_1us(u16 n_1us);
 
 /* Private functions ---------------------------------------------------------*/
 void GPIO_Initialization(void)
 {
   /* Push-button initialization */
-//  GPIO_Init(BUTTON_GPIO_PORT, FUNCTION_GPIO_PIN, GPIO_Mode_In_FL_IT);
+  GPIO_Init(BUTTON_GPIO_PORT, FUNCTION_GPIO_PIN, GPIO_Mode_In_FL_IT);
   /* Led ports initialization */
-//  GPIO_Init(LED_GR_PORT, LED_GR_PIN, GPIO_Mode_Out_PP_High_Fast);
-//  GPIO_Init(LED_BL_PORT, LED_BL_PIN, GPIO_Mode_Out_PP_Low_Fast);
+  GPIO_Init(LED_GR_PORT, LED_GR_PIN, GPIO_Mode_Out_PP_High_Fast);
+  GPIO_Init(LED_BL_PORT, LED_BL_PIN, GPIO_Mode_Out_PP_Low_Fast);
   /* PC0 in output push-pull low because never used by the application */
-  GPIO_Init(GPIOC, GPIO_Pin_0, GPIO_Mode_Out_PP_Low_Slow);
-  
-  GPIO_Init(GPIOE, GPIO_Pin_7, GPIO_Mode_Out_PP_High_Fast);
+  //GPIO_Init(GPIOC, GPIO_Pin_0, GPIO_Mode_Out_PP_Low_Slow);
 
   EXTI->CR1 = 0x00; /* PC1 (push-button) ext. interrupt to falling edge low level */
 }
@@ -110,30 +108,28 @@ void RTC_restart(void)
   RTC_WakeUpCmd(ENABLE);
 }
 
-void display_temp(void)
+void display_temp(TemperatureTypeDef* Temperature)
 {
-  if ((temp_int & 0xF800) == 0xF800)
-  {
-    temp_int = (~temp_int) + 1;
+  uint8_t dummy = 0x01;
+  
+  if (Temperature->sign == 1)
     display_array[0] = '-';
-  }
-  else if (temp_int == 0)
-    display_array[0] = 0x01;
+  else if (Temperature->rawT == 0)
+    display_array[0] = dummy;
   else
-  {
     display_array[0] = '+';
-  }  
-  temp_int = temp_int*100>>4;  
-  temp_int_display = temp_int;
+  
+  temp_int = Temperature->rawT;
+  temp_int_display = temp_int * 100 >> 4;
   Nbre1Tmp = temp_int_display / 10000;
   if (Nbre1Tmp == 0)
-    display_array[1] = 0x01;
+    display_array[1] = dummy;
   else
     display_array[1] = Nbre1Tmp + 0x30;               //Hundreds
   Nbre1Tmp = temp_int_display - (Nbre1Tmp * 10000);
   Nbre2Tmp = Nbre1Tmp / 1000;
   if (Nbre2Tmp == 0)
-    display_array[2] = 0x01;
+    display_array[2] = dummy;
   else
     display_array[2] = Nbre2Tmp + 0x30;               //Tens
   Nbre1Tmp = Nbre1Tmp - (Nbre2Tmp * 1000);
@@ -154,24 +150,35 @@ void display_temp(void)
   * @retval None
   */
 void main(void)
-{  
+{
+  ErrorStatus flag_init;
+  TemperatureTypeDef Temperature = {0, 0, 1, ERROR};
+  
   GPIO_Initialization();
   LCD_GLASS_Init();
   CLK_Config();
   RTC_Periph_Init();
-  Init_DS18B20();
   enableInterrupts();
   
-  delay_ms(10);
+  DS18B20_Reset();
+  flag_init = DS18B20_Check();
+  
+  if(flag_init == ERROR)
+  {
+    //printf("\n\rInit ERROR! Please Reset!\n\r");
+    while(1);
+  }
+  else 
+    //printf("\n\rInit SUCCESS!\n\r");
   
   /* Infinite loop */
   while (1)
   {
-    //DS18B20_Start();
-    temp_int = Read_DS18B20();
-    display_temp();
+    DS18B20_GetTemperature(&Temperature);
+    display_temp(&Temperature);
     RTC_restart();
     halt();
+    //delay_ms(10);
   }
 }
 
