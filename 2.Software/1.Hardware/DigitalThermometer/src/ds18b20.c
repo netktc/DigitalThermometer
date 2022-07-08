@@ -14,16 +14,17 @@
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
-
+  
+/* Private functions ---------------------------------------------------------*/
   /*------------------------------------------------------------------------*/
   /* 发送复位ds18b20芯片信号                                                */
   /*------------------------------------------------------------------------*/
 
-void DS18B20_Reset(void) //
+void DS18B20_Reset(void)
 {
     DS18B20_DQ_OUT;
     DS18B20_DQ_LOW;
-    delay_1us(600);
+    delay_1us(RESET_PULSE_TIMESLOT);
     DS18B20_DQ_HIGH;
     delay_1us(20);
 }
@@ -36,25 +37,25 @@ ErrorStatus DS18B20_Check(void)
 {
   uint8_t cnt = 0;
   
-  DS18B20_DQ_IN;        /* 设置DQ管脚为输入模式 */
-  /* 等待复位信号低电平 */ 
-  while((DS18B20_DQ_STATUS != RESET) && (cnt < RESPONSE_MAX_TIME_1))  
+  DS18B20_DQ_IN;                        //设置DQ管脚为输入模式
+  //等待复位信号低电平
+  while((DS18B20_DQ_STATUS != RESET) && (cnt < WAIT_TIMESLOT))
   {
-    cnt++; 
+    cnt++;
     delay_1us(1);
   }
-  if(cnt >= RESPONSE_MAX_TIME_1)
+  if(cnt >= WAIT_TIMESLOT)
     return ERROR;
   else
     cnt = 0;
   
-  /* 再等待复位信号拉高，表示复位结束 */
-  while((DS18B20_DQ_STATUS == RESET) && (cnt < RESPONSE_MAX_TIME_2))  
+  //再等待复位信号拉高，表示复位结束
+  while((DS18B20_DQ_STATUS == RESET) && (cnt < PRESENCE_PULSE_TIMESLOT))
   {
-    cnt++; 
+    cnt++;
     delay_1us(1);
   }
-  if(cnt >= RESPONSE_MAX_TIME_2)
+  if(cnt >= PRESENCE_PULSE_TIMESLOT)
     return ERROR;
   else
     return SUCCESS;
@@ -68,21 +69,21 @@ static BitStatus DS18B20_ReadBit(void)
 {
   BitStatus data;
   
+  //master device pulling the 1-Wire bus low for a minimum of 1μs
   DS18B20_DQ_OUT;
   DS18B20_DQ_LOW;
-  delay_1us(2);
-  DS18B20_DQ_HIGH;
-  
+  delay_1us(BUS_INIT_TIME);
+  //master device releasing the bus
   DS18B20_DQ_IN;
-  delay_1us(12);       
-  
-  if(DS18B20_DQ_STATUS != RESET)   
-    data = SET;              
-  else 
-    data = RESET;	   
-  
-  delay_1us(50);         
-  return data;       
+  //After the master initiates the read time slot, the DS18B20 will begin transmitting a 1 or 0 on bus.
+  //Output data from the DS18B20 is valid for 15μs after the falling edge that initiated the read time slot.
+  delay_1us(RECOVERY_TIME);
+  if(DS18B20_DQ_STATUS != RESET)
+    data = SET;
+  else
+    data = RESET;
+  delay_1us(WAIT_READ_TIMESLOT);
+  return data;
 }
 
   /*------------------------------------------------------------------------*/
@@ -103,6 +104,24 @@ static uint8_t DS18B20_ReadByte(void)
 }
 
   /*------------------------------------------------------------------------*/
+  /* 从DS18B20写一个位                                                      */
+  /*------------------------------------------------------------------------*/
+
+void DS18B20_WriteBit(uint8_t data)
+{
+  //The bus master uses a Write 1 time slot to write a logic 1 to the DS18B20 and a Write 0 time slot to write a logic 0 to the DS18B20.
+  //All write time slots must be a minimum of 60μs in duration with a minimum of a 1μs recovery time between individual write slots.
+  //Both types of write time slots are initiated by the master pulling the 1-Wire bus low.
+  DS18B20_DQ_OUT;
+  DS18B20_DQ_LOW;
+  delay_1us(BUS_INIT_TIME);
+  if (data == 1)
+    DS18B20_DQ_IN;
+  delay_1us(WAIT_WRITE_TIMESLOT);
+  DS18B20_DQ_HIGH;
+}
+
+  /*------------------------------------------------------------------------*/
   /* 从DS18B20写一个字节                                                    */
   /*------------------------------------------------------------------------*/
 
@@ -111,26 +130,11 @@ void DS18B20_WriteByte(uint8_t cmd)
   uint8_t bit;
   uint8_t i;
   
-  DS18B20_DQ_OUT;
-  
   for(i = 0; i < 8; i++)
   {
     bit = cmd & 0x01;
-    if (bit == 1) 
-    {
-      DS18B20_DQ_LOW;
-      delay_1us(2);
-      DS18B20_DQ_HIGH;
-      delay_1us(60); 
-    }
-    else   
-    {
-       DS18B20_DQ_LOW;
-       delay_1us(60);   
-       DS18B20_DQ_HIGH;
-       delay_1us(2);    
-    }  
-    cmd = cmd >> 1; /* 写下一位 */
+    DS18B20_WriteBit(bit);
+    cmd = cmd >> 1;             /* 写下一位 */
   }
 }
 
@@ -143,23 +147,23 @@ void DS18B20_GetTemperature(TemperatureTypeDef* Temperature)
   uint8_t data_L, data_H;
   uint16_t data;
   
-  DS18B20_Reset(); 
+  DS18B20_Reset();
   Temperature->flag = DS18B20_Check();
   if(Temperature->flag == ERROR)
     return;
   DS18B20_WriteByte(SKIP_ROM);
   DS18B20_WriteByte(CONVERT_T);
-
+  
   /* 等待温度采集完成 */
-  //while(DS18B20_ReadByte() != 0xFF);  
-
+  //while(DS18B20_ReadByte() != 0xFF);
+  
   DS18B20_Reset();
   Temperature->flag = DS18B20_Check();
   if(Temperature->flag == ERROR)
     return;
   DS18B20_WriteByte(SKIP_ROM);
   DS18B20_WriteByte(READ_SCRATCHPAD);
-
+  
   data_L = DS18B20_ReadByte();
   data_H = DS18B20_ReadByte();
 
@@ -175,43 +179,8 @@ void DS18B20_GetTemperature(TemperatureTypeDef* Temperature)
   }
   else                                  //positive number
     Temperature->sign = 0;
-
+  
   Temperature->rawT = data;             //unsigned raw data
   Temperature->intT = data >> 4;        //integer
   Temperature->decT = data & 0x0F;      //decimal
 }
-
-  /*------------------------------------------------------------------------*/
-  /* Pull-Up/Float (Input) or Push-Pull/Open-Drain (Output) modes selection */
-  /*------------------------------------------------------------------------*/
-/*
-s16 DS18B20_GetTemperature(void)  //读取并计算要输出的温度
-{
-    unsigned char i;
-    unsigned char tl;
-    unsigned int  th;
-    i=DS18B20_Start();           //复位
-    if(!i)                        //单总线上没有发现DS18B20则报警
-    {
-        Alarm_for_No_DS18B20();
-        return 0;
-    }
-    _delay_ms(1);
-    DS18B20_SendU8(SKIP_ROM);     //发跳过序列号检测命令
-    DS18B20_SendU8(CONVERT_T); //命令Ds18b20开始转换温度
-    i=0;
-    _delay_ms(1);
-    while(!R_DS18B20())       //当温度转换正在进行时,主机读总线将收到0,转换结束为1
-    {
-        _delay_ms(3);
-        if(++i>250) break;              //至多转换时间为750ms
-    }
-    DS18B20_Start();                 //初始化
-    _delay_ms(1);
-    DS18B20_SendU8(SKIP_ROM);    //发跳过序列号检测命令
-    DS18B20_SendU8(READ_SCRATCHPAD);  //发读取温度数据命令
-    tl=DS18B20_ReadU8();           //先读低8位温度数据
-    th=DS18B20_ReadU8()<<8;        //再读高8位温度数据    
-    DS18B20_PIN_SET_OUT();//置为输出口
-    return tl|th;              //温度放大了10倍,*0.0625=1/16=>>4
-}*/

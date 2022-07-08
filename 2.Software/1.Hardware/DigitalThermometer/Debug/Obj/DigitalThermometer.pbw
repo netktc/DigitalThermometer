@@ -37056,41 +37056,125 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@217@macro@RESPONSE_MAX_TIME_1",
+    "ID": "c:ds18b20.h@29@macro@__DS18B20_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "RESPONSE_MAX_TIME_1",
+    "display": "__DS18B20_H",
     "location": {
       "column": "9",
-      "line": "6",
+      "line": "2",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
-    "name": "RESPONSE_MAX_TIME_1",
+    "name": "__DS18B20_H",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@253@macro@RESPONSE_MAX_TIME_2",
+    "ID": "c:ds18b20.h@261@macro@RESET_PULSE_TIMESLOT",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "RESPONSE_MAX_TIME_2",
+    "display": "RESET_PULSE_TIMESLOT",
     "location": {
       "column": "9",
-      "line": "7",
+      "line": "9",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
-    "name": "RESPONSE_MAX_TIME_2",
+    "name": "RESET_PULSE_TIMESLOT",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@306@macro@SERACH_ROM",
+    "ID": "c:ds18b20.h@318@macro@WAIT_TIMESLOT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WAIT_TIMESLOT",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
+    },
+    "name": "WAIT_TIMESLOT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ds18b20.h@373@macro@PRESENCE_PULSE_TIMESLOT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PRESENCE_PULSE_TIMESLOT",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
+    },
+    "name": "PRESENCE_PULSE_TIMESLOT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ds18b20.h@429@macro@BUS_INIT_TIME",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BUS_INIT_TIME",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
+    },
+    "name": "BUS_INIT_TIME",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ds18b20.h@489@macro@RECOVERY_TIME",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RECOVERY_TIME",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
+    },
+    "name": "RECOVERY_TIME",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ds18b20.h@553@macro@WAIT_READ_TIMESLOT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WAIT_READ_TIMESLOT",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
+    },
+    "name": "WAIT_READ_TIMESLOT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ds18b20.h@614@macro@WAIT_WRITE_TIMESLOT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WAIT_WRITE_TIMESLOT",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
+    },
+    "name": "WAIT_WRITE_TIMESLOT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ds18b20.h@668@macro@SERACH_ROM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SERACH_ROM",
     "location": {
       "column": "9",
-      "line": "9",
+      "line": "18",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "SERACH_ROM",
@@ -37098,13 +37182,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@344@macro@READ_ROM",
+    "ID": "c:ds18b20.h@706@macro@READ_ROM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "READ_ROM",
     "location": {
       "column": "9",
-      "line": "10",
+      "line": "19",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "READ_ROM",
@@ -37112,13 +37196,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@382@macro@MATCH_ROM",
+    "ID": "c:ds18b20.h@744@macro@MATCH_ROM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "MATCH_ROM",
     "location": {
       "column": "9",
-      "line": "11",
+      "line": "20",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "MATCH_ROM",
@@ -37126,13 +37210,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@420@macro@SKIP_ROM",
+    "ID": "c:ds18b20.h@782@macro@SKIP_ROM",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SKIP_ROM",
     "location": {
       "column": "9",
-      "line": "12",
+      "line": "21",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "SKIP_ROM",
@@ -37140,13 +37224,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@458@macro@ALARM_SEARCH",
+    "ID": "c:ds18b20.h@820@macro@ALARM_SEARCH",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ALARM_SEARCH",
     "location": {
       "column": "9",
-      "line": "13",
+      "line": "22",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "ALARM_SEARCH",
@@ -37154,13 +37238,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@517@macro@CONVERT_T",
+    "ID": "c:ds18b20.h@879@macro@CONVERT_T",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CONVERT_T",
     "location": {
       "column": "9",
-      "line": "15",
+      "line": "24",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "CONVERT_T",
@@ -37168,13 +37252,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@602@macro@WRITE_SCRATCHPAD",
+    "ID": "c:ds18b20.h@965@macro@WRITE_SCRATCHPAD",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "WRITE_SCRATCHPAD",
     "location": {
       "column": "9",
-      "line": "16",
+      "line": "25",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "WRITE_SCRATCHPAD",
@@ -37182,13 +37266,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@640@macro@READ_SCRATCHPAD",
+    "ID": "c:ds18b20.h@1093@macro@READ_SCRATCHPAD",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "READ_SCRATCHPAD",
     "location": {
       "column": "9",
-      "line": "17",
+      "line": "26",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "READ_SCRATCHPAD",
@@ -37196,13 +37280,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@678@macro@COPY_SCRATCHPAD",
+    "ID": "c:ds18b20.h@1188@macro@COPY_SCRATCHPAD",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "COPY_SCRATCHPAD",
     "location": {
       "column": "9",
-      "line": "18",
+      "line": "27",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "COPY_SCRATCHPAD",
@@ -37210,13 +37294,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@716@macro@RECALL_E2",
+    "ID": "c:ds18b20.h@1309@macro@RECALL_E2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RECALL_E2",
     "location": {
       "column": "9",
-      "line": "19",
+      "line": "28",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "RECALL_E2",
@@ -37224,13 +37308,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@810@macro@READ_POWER_SUPPLY",
+    "ID": "c:ds18b20.h@1431@macro@READ_POWER_SUPPLY",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "READ_POWER_SUPPLY",
     "location": {
       "column": "9",
-      "line": "20",
+      "line": "29",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "READ_POWER_SUPPLY",
@@ -37238,13 +37322,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@962@macro@DS18B20_DQ_PORT",
+    "ID": "c:ds18b20.h@1607@macro@DS18B20_DQ_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DS18B20_DQ_PORT",
     "location": {
       "column": "9",
-      "line": "23",
+      "line": "32",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_DQ_PORT",
@@ -37252,13 +37336,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@1003@macro@DS18B20_DQ_PIN",
+    "ID": "c:ds18b20.h@1648@macro@DS18B20_DQ_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DS18B20_DQ_PIN",
     "location": {
       "column": "9",
-      "line": "24",
+      "line": "33",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_DQ_PIN",
@@ -37266,13 +37350,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@1049@macro@DS18B20_DQ_OUT",
+    "ID": "c:ds18b20.h@1694@macro@DS18B20_DQ_OUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DS18B20_DQ_OUT",
     "location": {
       "column": "9",
-      "line": "25",
+      "line": "34",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_DQ_OUT",
@@ -37280,13 +37364,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@1153@macro@DS18B20_DQ_IN",
+    "ID": "c:ds18b20.h@1798@macro@DS18B20_DQ_IN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DS18B20_DQ_IN",
     "location": {
       "column": "9",
-      "line": "26",
+      "line": "35",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_DQ_IN",
@@ -37294,13 +37378,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@1252@macro@DS18B20_DQ_HIGH",
+    "ID": "c:ds18b20.h@1897@macro@DS18B20_DQ_HIGH",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DS18B20_DQ_HIGH",
     "location": {
       "column": "9",
-      "line": "27",
+      "line": "36",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_DQ_HIGH",
@@ -37308,13 +37392,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@1331@macro@DS18B20_DQ_LOW",
+    "ID": "c:ds18b20.h@1976@macro@DS18B20_DQ_LOW",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DS18B20_DQ_LOW",
     "location": {
       "column": "9",
-      "line": "28",
+      "line": "37",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_DQ_LOW",
@@ -37322,13 +37406,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.h@1412@macro@DS18B20_DQ_STATUS",
+    "ID": "c:ds18b20.h@2057@macro@DS18B20_DQ_STATUS",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DS18B20_DQ_STATUS",
     "location": {
       "column": "9",
-      "line": "29",
+      "line": "38",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_DQ_STATUS",
@@ -37342,7 +37426,7 @@
     "display": "",
     "location": {
       "column": "9",
-      "line": "32",
+      "line": "41",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "members": [
@@ -37353,12 +37437,12 @@
         "display": "intT",
         "location": {
           "column": "11",
-          "line": "34",
+          "line": "43",
           "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
         },
         "name": "intT",
         "origin": "user_include",
-        "scope": "_anonymous_ds18b20_h_32_9"
+        "scope": "_anonymous_ds18b20_h_41_9"
       },
       {
         "ID": "c:@SA@TemperatureTypeDef@FI@decT",
@@ -37367,12 +37451,12 @@
         "display": "decT",
         "location": {
           "column": "11",
-          "line": "35",
+          "line": "44",
           "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
         },
         "name": "decT",
         "origin": "user_include",
-        "scope": "_anonymous_ds18b20_h_32_9"
+        "scope": "_anonymous_ds18b20_h_41_9"
       },
       {
         "ID": "c:@SA@TemperatureTypeDef@FI@sign",
@@ -37381,12 +37465,12 @@
         "display": "sign",
         "location": {
           "column": "11",
-          "line": "36",
+          "line": "45",
           "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
         },
         "name": "sign",
         "origin": "user_include",
-        "scope": "_anonymous_ds18b20_h_32_9"
+        "scope": "_anonymous_ds18b20_h_41_9"
       },
       {
         "ID": "c:@SA@TemperatureTypeDef@FI@rawT",
@@ -37395,12 +37479,12 @@
         "display": "rawT",
         "location": {
           "column": "12",
-          "line": "37",
+          "line": "46",
           "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
         },
         "name": "rawT",
         "origin": "user_include",
-        "scope": "_anonymous_ds18b20_h_32_9"
+        "scope": "_anonymous_ds18b20_h_41_9"
       },
       {
         "ID": "c:@SA@TemperatureTypeDef@FI@flag",
@@ -37409,12 +37493,12 @@
         "display": "flag",
         "location": {
           "column": "15",
-          "line": "38",
+          "line": "47",
           "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
         },
         "name": "flag",
         "origin": "user_include",
-        "scope": "_anonymous_ds18b20_h_32_9"
+        "scope": "_anonymous_ds18b20_h_41_9"
       },
       {
         "ID": "c:@T@TemperatureTypeDef",
@@ -37423,12 +37507,12 @@
         "display": "struct TemperatureTypeDef",
         "location": {
           "column": "2",
-          "line": "39",
+          "line": "48",
           "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
         },
         "name": "TemperatureTypeDef",
         "origin": "user_include",
-        "scope": "_anonymous_ds18b20_h_32_9"
+        "scope": "_anonymous_ds18b20_h_41_9"
       }
     ],
     "name": "",
@@ -37442,7 +37526,7 @@
     "display": "void DS18B20_Reset(void)",
     "location": {
       "column": "6",
-      "line": "41",
+      "line": "51",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_Reset",
@@ -37456,7 +37540,7 @@
     "display": "void DS18B20_Reset(void)",
     "location": {
       "column": "6",
-      "line": "41",
+      "line": "51",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_Reset",
@@ -37470,7 +37554,7 @@
     "display": "ErrorStatus DS18B20_Check(void)",
     "location": {
       "column": "13",
-      "line": "42",
+      "line": "52",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_Check",
@@ -37484,7 +37568,7 @@
     "display": "ErrorStatus DS18B20_Check(void)",
     "location": {
       "column": "13",
-      "line": "42",
+      "line": "52",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_Check",
@@ -37498,7 +37582,7 @@
     "display": "BitStatus DS18B20_ReadBit(void)",
     "location": {
       "column": "18",
-      "line": "43",
+      "line": "53",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_ReadBit",
@@ -37512,7 +37596,7 @@
     "display": "BitStatus DS18B20_ReadBit(void)",
     "location": {
       "column": "18",
-      "line": "43",
+      "line": "53",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_ReadBit",
@@ -37526,7 +37610,7 @@
     "display": "uint8_t DS18B20_ReadByte(void)",
     "location": {
       "column": "16",
-      "line": "44",
+      "line": "54",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_ReadByte",
@@ -37540,7 +37624,7 @@
     "display": "uint8_t DS18B20_ReadByte(void)",
     "location": {
       "column": "16",
-      "line": "44",
+      "line": "54",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_ReadByte",
@@ -37554,7 +37638,7 @@
     "display": "void DS18B20_WriteByte(uint8_t)",
     "location": {
       "column": "6",
-      "line": "45",
+      "line": "55",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_WriteByte",
@@ -37568,7 +37652,7 @@
     "display": "void DS18B20_WriteByte(uint8_t)",
     "location": {
       "column": "6",
-      "line": "45",
+      "line": "55",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_WriteByte",
@@ -37582,7 +37666,7 @@
     "display": "void DS18B20_GetTemperature(TemperatureTypeDef *)",
     "location": {
       "column": "6",
-      "line": "46",
+      "line": "56",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_GetTemperature",
@@ -37596,7 +37680,7 @@
     "display": "void DS18B20_GetTemperature(TemperatureTypeDef *)",
     "location": {
       "column": "6",
-      "line": "46",
+      "line": "56",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\ds18b20.h"
     },
     "name": "DS18B20_GetTemperature",
@@ -37610,7 +37694,7 @@
     "display": "void DS18B20_Reset(void)",
     "location": {
       "column": "6",
-      "line": "22",
+      "line": "23",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "DS18B20_Reset",
@@ -37624,7 +37708,7 @@
     "display": "ErrorStatus DS18B20_Check(void)",
     "location": {
       "column": "13",
-      "line": "35",
+      "line": "36",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "DS18B20_Check",
@@ -37632,13 +37716,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@1397@F@DS18B20_Check@cnt",
+    "ID": "c:ds18b20.c@1495@F@DS18B20_Check@cnt",
     "What": "Variable",
     "defdec": "Def",
     "display": "cnt",
     "location": {
       "column": "11",
-      "line": "37",
+      "line": "38",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "cnt",
@@ -37652,7 +37736,7 @@
     "display": "BitStatus DS18B20_ReadBit(void)",
     "location": {
       "column": "18",
-      "line": "67",
+      "line": "68",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "DS18B20_ReadBit",
@@ -37660,13 +37744,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@2223@F@DS18B20_ReadBit@data",
+    "ID": "c:ds18b20.c@2314@F@DS18B20_ReadBit@data",
     "What": "Variable",
     "defdec": "Def",
     "display": "data",
     "location": {
       "column": "13",
-      "line": "69",
+      "line": "70",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "data",
@@ -37680,7 +37764,7 @@
     "display": "uint8_t DS18B20_ReadByte(void)",
     "location": {
       "column": "16",
-      "line": "92",
+      "line": "93",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "DS18B20_ReadByte",
@@ -37688,13 +37772,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@2815@F@DS18B20_ReadByte@t",
+    "ID": "c:ds18b20.c@3189@F@DS18B20_ReadByte@t",
     "What": "Variable",
     "defdec": "Def",
     "display": "t",
     "location": {
       "column": "11",
-      "line": "94",
+      "line": "95",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "t",
@@ -37702,13 +37786,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@2815@F@DS18B20_ReadByte@data",
+    "ID": "c:ds18b20.c@3189@F@DS18B20_ReadByte@data",
     "What": "Variable",
     "defdec": "Dec",
     "display": "data",
     "location": {
       "column": "14",
-      "line": "94",
+      "line": "95",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "data",
@@ -37716,16 +37800,30 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@2835@F@DS18B20_ReadByte@i",
+    "ID": "c:ds18b20.c@3209@F@DS18B20_ReadByte@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
-      "line": "95",
+      "line": "96",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DS18B20_WriteBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void DS18B20_WriteBit(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "110",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
+    },
+    "name": "DS18B20_WriteBit",
     "origin": "project_file",
     "scope": null
   },
@@ -37736,7 +37834,7 @@
     "display": "void DS18B20_WriteByte(uint8_t)",
     "location": {
       "column": "6",
-      "line": "109",
+      "line": "128",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "DS18B20_WriteByte",
@@ -37744,13 +37842,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@3256@F@DS18B20_WriteByte@bit",
+    "ID": "c:ds18b20.c@4443@F@DS18B20_WriteByte@bit",
     "What": "Variable",
     "defdec": "Def",
     "display": "bit",
     "location": {
       "column": "11",
-      "line": "111",
+      "line": "130",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "bit",
@@ -37758,13 +37856,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@3272@F@DS18B20_WriteByte@i",
+    "ID": "c:ds18b20.c@4459@F@DS18B20_WriteByte@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
-      "line": "112",
+      "line": "131",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "i",
@@ -37778,7 +37876,7 @@
     "display": "void DS18B20_GetTemperature(TemperatureTypeDef *)",
     "location": {
       "column": "6",
-      "line": "141",
+      "line": "145",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "DS18B20_GetTemperature",
@@ -37786,13 +37884,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@3975@F@DS18B20_GetTemperature@data_L",
+    "ID": "c:ds18b20.c@4924@F@DS18B20_GetTemperature@data_L",
     "What": "Variable",
     "defdec": "Def",
     "display": "data_L",
     "location": {
       "column": "11",
-      "line": "143",
+      "line": "147",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "data_L",
@@ -37800,13 +37898,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@3975@F@DS18B20_GetTemperature@data_H",
+    "ID": "c:ds18b20.c@4924@F@DS18B20_GetTemperature@data_H",
     "What": "Variable",
     "defdec": "Dec",
     "display": "data_H",
     "location": {
       "column": "19",
-      "line": "143",
+      "line": "147",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "data_H",
@@ -37814,13 +37912,13 @@
     "scope": null
   },
   {
-    "ID": "c:ds18b20.c@4002@F@DS18B20_GetTemperature@data",
+    "ID": "c:ds18b20.c@4951@F@DS18B20_GetTemperature@data",
     "What": "Variable",
     "defdec": "Def",
     "display": "data",
     "location": {
       "column": "12",
-      "line": "144",
+      "line": "148",
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\src\\ds18b20.c"
     },
     "name": "data",
@@ -38133,6 +38231,146 @@
     },
     "name": "Temperature",
     "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.h@108@macro@__MAIN_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__MAIN_H",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
+    },
+    "name": "__MAIN_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:main.h@317@macro@BUTTON_GPIO_PORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BUTTON_GPIO_PORT",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
+    },
+    "name": "BUTTON_GPIO_PORT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:main.h@362@macro@FUNCTION_GPIO_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FUNCTION_GPIO_PIN",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
+    },
+    "name": "FUNCTION_GPIO_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:main.h@414@macro@LED_GR_PORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_GR_PORT",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
+    },
+    "name": "LED_GR_PORT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:main.h@454@macro@LED_GR_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_GR_PIN",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
+    },
+    "name": "LED_GR_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:main.h@501@macro@LED_BL_PORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_BL_PORT",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
+    },
+    "name": "LED_BL_PORT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:main.h@541@macro@LED_BL_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_BL_PIN",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
+    },
+    "name": "LED_BL_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:main.h@670@macro@GPIO_HIGH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_HIGH",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
+    },
+    "name": "GPIO_HIGH",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:main.h@704@macro@GPIO_LOW",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_LOW",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
+    },
+    "name": "GPIO_LOW",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:main.h@738@macro@GPIO_TOGGLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_TOGGLE",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
+    },
+    "name": "GPIO_TOGGLE",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -38692,146 +38930,6 @@
       "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\stm8l_discovery_lcd.h"
     },
     "name": "LCD_GLASS_WriteTime",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@108@macro@__MAIN_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__MAIN_H",
-    "location": {
-      "column": "9",
-      "line": "3",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
-    },
-    "name": "__MAIN_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@317@macro@BUTTON_GPIO_PORT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BUTTON_GPIO_PORT",
-    "location": {
-      "column": "9",
-      "line": "9",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
-    },
-    "name": "BUTTON_GPIO_PORT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@362@macro@FUNCTION_GPIO_PIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FUNCTION_GPIO_PIN",
-    "location": {
-      "column": "9",
-      "line": "10",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
-    },
-    "name": "FUNCTION_GPIO_PIN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@414@macro@LED_GR_PORT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED_GR_PORT",
-    "location": {
-      "column": "9",
-      "line": "12",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
-    },
-    "name": "LED_GR_PORT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@454@macro@LED_GR_PIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED_GR_PIN",
-    "location": {
-      "column": "9",
-      "line": "13",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
-    },
-    "name": "LED_GR_PIN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@501@macro@LED_BL_PORT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED_BL_PORT",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
-    },
-    "name": "LED_BL_PORT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@541@macro@LED_BL_PIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LED_BL_PIN",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
-    },
-    "name": "LED_BL_PIN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@670@macro@GPIO_HIGH",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_HIGH",
-    "location": {
-      "column": "9",
-      "line": "19",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
-    },
-    "name": "GPIO_HIGH",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@704@macro@GPIO_LOW",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_LOW",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
-    },
-    "name": "GPIO_LOW",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:main.h@738@macro@GPIO_TOGGLE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_TOGGLE",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Users\\netkt\\Documents\\Repos\\DigitalThermometer\\2.Software\\1.Hardware\\DigitalThermometer\\inc\\main.h"
-    },
-    "name": "GPIO_TOGGLE",
     "origin": "user_include",
     "scope": null
   },
