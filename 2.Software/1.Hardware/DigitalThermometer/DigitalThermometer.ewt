@@ -2175,6 +2175,9 @@
             <file>
                 <name>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h</name>
             </file>
+            <file>
+                <name>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h</name>
+            </file>
         </group>
         <group>
             <name>src</name>
@@ -2192,6 +2195,9 @@
             </file>
             <file>
                 <name>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_rtc.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c</name>
             </file>
         </group>
     </group>
@@ -2217,6 +2223,9 @@
             <file>
                 <name>$PROJ_DIR$\inc\stm8l_discovery_lcd.h</name>
             </file>
+            <file>
+                <name>$PROJ_DIR$\src\usart.h</name>
+            </file>
         </group>
         <group>
             <name>src</name>
@@ -2234,6 +2243,9 @@
             </file>
             <file>
                 <name>$PROJ_DIR$\src\stm8l_discovery_lcd.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\src\usart.c</name>
             </file>
         </group>
     </group>

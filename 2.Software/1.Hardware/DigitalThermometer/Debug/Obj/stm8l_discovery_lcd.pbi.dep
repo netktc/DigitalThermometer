@@ -9,5 +9,7 @@ stm8l_discovery_lcd.pbi: \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_lcd.h \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h \
+  C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
+  C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\inc\delay.h

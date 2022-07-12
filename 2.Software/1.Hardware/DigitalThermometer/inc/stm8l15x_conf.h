@@ -49,7 +49,7 @@
 /* #include "stm8l15x_tim2.h" */
 /* #include "stm8l15x_tim3.h" */
 /* #include "stm8l15x_tim4.h" */
-/* #include "stm8l15x_usart.h"*/
+#include "stm8l15x_usart.h"
 /* #include "stm8l15x_wfe.h" */
 /* #include "stm8l15x_wwdg.h" */
 

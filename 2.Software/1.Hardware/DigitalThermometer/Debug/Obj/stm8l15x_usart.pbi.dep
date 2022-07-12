@@ -1,13 +1,13 @@
-stm8l15x_exti.pbi: \
-  C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_exti.c \
-  C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
+stm8l15x_usart.pbi: \
+  C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_usart.c \
+  C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x.h \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\inc\stm8l15x_conf.h \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
+  C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_lcd.h \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h \
-  C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
-  C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h

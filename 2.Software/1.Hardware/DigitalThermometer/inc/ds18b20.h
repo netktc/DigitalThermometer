@@ -47,6 +47,15 @@ typedef struct
   ErrorStatus flag;             //check flag
 }TemperatureTypeDef;
 
+/* Structure -----------------------------------------------------------------*/
+typedef struct 
+{
+  uint8_t familyId;            //integer
+  uint8_t sn[6];               //decimal
+  uint8_t crc;                 //sign
+  ErrorStatus flag;             //check flag
+}RomCodeTypeDef;
+
 /* Private function prototypes -----------------------------------------------*/
 void DS18B20_Reset(void);                                       //Master issues reset pulse
 ErrorStatus DS18B20_Check(void);                                //Check DS18B20 respond with presence pulse
@@ -54,5 +63,6 @@ static BitStatus DS18B20_ReadBit(void);
 static uint8_t DS18B20_ReadByte(void);
 void DS18B20_WriteByte(uint8_t cmd);
 void DS18B20_GetTemperature(TemperatureTypeDef* Temperature);
+void DS18B20_GetRoomCode(RomCodeTypeDef* RomCode);
 
 #endif /* __DS18B20_H */

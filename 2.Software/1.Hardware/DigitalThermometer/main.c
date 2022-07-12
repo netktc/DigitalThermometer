@@ -1,27 +1,10 @@
 /**
   ******************************************************************************
   * @file    main.c
-  * @author  MCD Application Team
-  * @version V1.6.1
-  * @date    30-September-2014
+  * @author  netktc
+  * @version V1.0.1
+  * @date    12-July-2022
   * @brief   Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * <h2><center>&copy; COPYRIGHT 2014 STMicroelectronics</center></h2>
-  *
-  * Licensed under MCD-ST Liberty SW License Agreement V2, (the "License");
-  * You may not use this file except in compliance with the License.
-  * You may obtain a copy of the License at:
-  *
-  *        http://www.st.com/software_license_agreement_liberty_v2
-  *
-  * Unless required by applicable law or agreed to in writing, software 
-  * distributed under the License is distributed on an "AS IS" BASIS, 
-  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  * See the License for the specific language governing permissions and
-  * limitations under the License.
-  *
   ******************************************************************************
   */
 
@@ -31,6 +14,8 @@
 #include "stm8l_discovery_lcd.h"
 #include "ds18b20.h"
 #include "delay.h"
+#include "stdio.h"
+#include "usart.h"
 
 /** @addtogroup STM8L15x_StdPeriph_Template
   * @{
@@ -40,7 +25,11 @@
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
-volatile bool wakeup_flag = FALSE;
+volatile bool startup_flag = FALSE;
+
+volatile bool User_Key_Pressed = FALSE;
+volatile bool FORCED_CALIB = FALSE;
+volatile u16 Sec2_count = 0;
 
 u16 display_array[6];
 u16 Nbre1Tmp;
@@ -55,7 +44,9 @@ void GPIO_Initialization(void);
 void RTC_Periph_Init(void);
 void RTC_restart(void);
 void display_temp(TemperatureTypeDef* Temperature);
-void delay_1us(u16 n_1us);
+
+#define PUTCHAR_PROTOTYPE int putchar (int c)
+#define GETCHAR_PROTOTYPE int getchar (void)
 
 /* Private functions ---------------------------------------------------------*/
 void GPIO_Initialization(void)
@@ -68,7 +59,7 @@ void GPIO_Initialization(void)
   /* PC0 in output push-pull low because never used by the application */
   //GPIO_Init(GPIOC, GPIO_Pin_0, GPIO_Mode_Out_PP_Low_Slow);
 
-  EXTI->CR1 = 0x00; /* PC1 (push-button) ext. interrupt to falling edge low level */
+  EXTI->CR1 = 0x04; /* PC1 (push-button) ext. interrupt to falling edge low level */
 }
 
 void RTC_Periph_Init(void)
@@ -100,6 +91,9 @@ static void CLK_Config(void)
   
   /*Enable TIM4 CLK*/
   CLK_PeripheralClockConfig(CLK_Peripheral_TIM4,ENABLE);
+  
+  /*Enable USART1 CLK*/
+  CLK_PeripheralClockConfig(CLK_Peripheral_USART1, ENABLE);
 }
 
 void RTC_restart(void)
@@ -152,12 +146,16 @@ void display_temp(TemperatureTypeDef* Temperature)
 void main(void)
 {
   ErrorStatus flag_init;
-  TemperatureTypeDef Temperature = {0, 0, 1, ERROR};
+  TemperatureTypeDef Temperature = {0, 0, 0, 0, ERROR};
+  RomCodeTypeDef RomCode;
   
   GPIO_Initialization();
   LCD_GLASS_Init();
   CLK_Config();
+  USART_Config();
   RTC_Periph_Init();
+  
+  
   enableInterrupts();
   
   DS18B20_Reset();
@@ -165,20 +163,32 @@ void main(void)
   
   if(flag_init == ERROR)
   {
-    //printf("\n\rInit ERROR! Please Reset!\n\r");
+    LCD_GLASS_DisplayString(" ERROR");
+    printf("\n\rInit ERROR! Please Reset!\n\r");
     while(1);
   }
-  else 
-    //printf("\n\rInit SUCCESS!\n\r");
+  else
+  {
+    LCD_GLASS_DisplayString(" SUCCESS");
+    printf("\n\rInit SUCCESS!\n\r");
+  }
+  delay_ms(500);
+  
+  DS18B20_GetRoomCode(&RomCode);
   
   /* Infinite loop */
   while (1)
   {
-    DS18B20_GetTemperature(&Temperature);
-    display_temp(&Temperature);
+    if (startup_flag == TRUE)
+    {
+      DS18B20_GetTemperature(&Temperature);
+      display_temp(&Temperature);
+    }
+    else
+      LCD_GLASS_DisplayString(" STOP ");
+    
     RTC_restart();
-    halt();
-    //delay_ms(10);
+    delay_ms(100);
   }
 }
 

@@ -184,3 +184,19 @@ void DS18B20_GetTemperature(TemperatureTypeDef* Temperature)
   Temperature->intT = data >> 4;        //integer
   Temperature->decT = data & 0x0F;      //decimal
 }
+
+void DS18B20_GetRoomCode(RomCodeTypeDef* RomCode)
+{
+  uint8_t i;
+  DS18B20_Reset();
+  RomCode->flag = DS18B20_Check();
+  if(RomCode->flag == ERROR)
+    return;
+  DS18B20_WriteByte(READ_ROM);
+  RomCode->familyId = DS18B20_ReadByte();
+  for (i=0; i<6; i++)
+  {
+    RomCode->sn[i] = DS18B20_ReadByte();
+  }
+  RomCode->crc = DS18B20_ReadByte();
+}

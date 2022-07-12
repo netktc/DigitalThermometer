@@ -35,7 +35,7 @@
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
-extern volatile bool wakeup_flag;
+extern volatile bool startup_flag;
 //extern volatile u16 value[NUM_SAM];
 //extern volatile u16 res;
 //extern volatile u8 samp_counter;
@@ -138,7 +138,7 @@ INTERRUPT_HANDLER(RTC_IRQHandler, 4)
     RTC->ISR1 = 0x0;
     RTC->ISR2 = 0x0;
     //ADC_TempSensorCmd(ENABLE);
-    wakeup_flag = TRUE;
+    //wakeup_flag = TRUE;
   }
 
   return;
@@ -219,24 +219,30 @@ INTERRUPT_HANDLER(EXTI0_IRQHandler, 8)
   * None
   */
 INTERRUPT_HANDLER(EXTI1_IRQHandler, 9)
-{/*
+{
+  disableInterrupts();
+  
   if (User_Key_Pressed == TRUE)
-  {
+  {/*
     if (Sec2_count++ >= 50000) //~2 sec
     {
       FORCED_CALIB = TRUE;
       User_Key_Pressed = FALSE;
       Sec2_count = 0;
-    }
+    }*/
+    startup_flag = FALSE;
+    User_Key_Pressed = FALSE;
   }
   else
   {
+    startup_flag = TRUE;
     Sec2_count = 0;
     User_Key_Pressed = TRUE;
   }
 
   EXTI_ClearITPendingBit(EXTI_IT_Pin1);
-  return;*/
+  enableInterrupts();
+  //return;
 }
 
 /**
