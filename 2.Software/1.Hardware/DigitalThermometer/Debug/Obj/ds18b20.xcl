@@ -14,9 +14,9 @@ C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalT
 -I
 C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\stm8\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc\c
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\stm8\inc\c
 -I
 C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\inc
 -I
@@ -258,8 +258,8 @@ C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalT
 -D__EDG_ANSIC=1
 -D__EDG_CPP11_IL_EXTENSIONS_SUPPORTED=1
 -DSTM8L15X_MD=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\LIB\dlstm8smn.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\LIB\\dlstm8smn.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3_2\stm8\LIB\dlstm8smn.h"
+-D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3_2\\stm8\\LIB\\dlstm8smn.h"
 -D__VERSION__="IAR C/C++ Compiler V3.11.1.207 for STM8"
 -D__CODE_MEMORY_LIST1__()=__CODE_MEM_HELPER1__(__code, 0 )
 -D__CODE_MEMORY_LIST2__(_P1)=__CODE_MEM_HELPER2__(__code, 0 ,  _P1 )

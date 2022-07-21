@@ -158,8 +158,7 @@ void main(void)
   
   enableInterrupts();
   
-  DS18B20_Reset();
-  flag_init = DS18B20_Check();
+  flag_init = ow_reset();
   
   if(flag_init == ERROR)
   {
@@ -174,14 +173,15 @@ void main(void)
   }
   delay_ms(500);
   
-  DS18B20_GetRoomCode(&RomCode);
+  Read_ROMCode(&RomCode);
+  FindDevices();
   
   /* Infinite loop */
   while (1)
   {
     if (startup_flag == TRUE)
     {
-      DS18B20_GetTemperature(&Temperature);
+      Read_Temperature(&Temperature);
       display_temp(&Temperature);
     }
     else

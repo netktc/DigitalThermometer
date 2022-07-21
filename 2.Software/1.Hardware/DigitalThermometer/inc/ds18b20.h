@@ -50,19 +50,27 @@ typedef struct
 /* Structure -----------------------------------------------------------------*/
 typedef struct 
 {
-  uint8_t familyId;            //integer
-  uint8_t sn[6];               //decimal
-  uint8_t crc;                 //sign
+  uint8_t familyId;             //integer
+  uint8_t sn[6];                //decimal
+  uint8_t crc;                  //sign
   ErrorStatus flag;             //check flag
 }RomCodeTypeDef;
 
+/* Private variables ---------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
-void DS18B20_Reset(void);                                       //Master issues reset pulse
-ErrorStatus DS18B20_Check(void);                                //Check DS18B20 respond with presence pulse
-static BitStatus DS18B20_ReadBit(void);
-static uint8_t DS18B20_ReadByte(void);
-void DS18B20_WriteByte(uint8_t cmd);
-void DS18B20_GetTemperature(TemperatureTypeDef* Temperature);
-void DS18B20_GetRoomCode(RomCodeTypeDef* RomCode);
+ErrorStatus ow_reset(void);
+static BitStatus read_bit(void);
+void write_bit(uint8_t bitval);
+uint8_t read_byte(void);
+void write_byte(uint8_t val);
+
+void FindDevices(void);
+uint8_t First(void);
+uint8_t Next(void);
+uint8_t ow_crc(uint8_t x);
+
+void Read_Temperature(TemperatureTypeDef* Temperature);
+void Read_ROMCode(RomCodeTypeDef* RomCode);
+uint8_t Send_MatchRom(void);
 
 #endif /* __DS18B20_H */

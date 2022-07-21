@@ -1,6 +1,15 @@
 ds18b20.pbi: \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\ystdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\stdio.h \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\inc\delay.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\intrinsics.h \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
   C:\Users\netkt\Documents\Repos\DigitalThermometer\2.Software\1.Hardware\DigitalThermometer\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h \
